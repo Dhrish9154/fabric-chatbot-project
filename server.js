@@ -221,8 +221,8 @@ function getTemplateButtonAction(message) {
     return "view_fabrics";
   }
 
-  if (buttonValue === "talk_sales" || buttonValue === "contact sales" || buttonValue === "contact_sales") {
-    return "talk_sales";
+  if (buttonValue === "contact_sales" || buttonValue === "contact sales") {
+    return "contact_sales";
   }
 
   return null;
@@ -638,7 +638,7 @@ async function handleOnboarding(message) {
 
     if (pendingAction === "view_fabrics") {
       await sendAllQualities(from);
-    } else if (pendingAction === "talk_sales") {
+    } else if (pendingAction === "contact_sales") {
       await sendSales(from, "welcome_template_button");
     } else {
       await sendWelcome(from);
@@ -666,7 +666,7 @@ function buildWelcomeSections() {
       title: "Quick actions",
       rows: [
         { id: "view_fabrics", title: "View fabrics" },
-        { id: "talk_sales", title: "Talk to sales" }
+        { id: "contact_sales", title: "Contact sales" }
       ]
     }
   ];
@@ -878,7 +878,7 @@ async function sendQualityDesigns(to, quality) {
           },
           {
             type: "reply",
-            reply: { id: "talk_sales", title: "Talk to sales" }
+            reply: { id: "contact_sales", title: "Contact sales" }
           }
         ]
       }
@@ -969,7 +969,7 @@ async function sendStock(to, designId, source = "text") {
           },
           {
             type: "reply",
-            reply: { id: "talk_sales", title: "Talk to sales" }
+            reply: { id: "contact_sales", title: "Contact sales" }
           }
         ]
       }
@@ -1086,8 +1086,8 @@ async function handleIncomingMessage(message) {
       await sendQualityDesigns(from, quality);
     } else if (replyId === "view_fabrics" || replyId === "view_qualities") {
       await sendAllQualities(from);
-    } else if (replyId === "talk_sales") {
-      await sendSales(from, "talk_sales_button");
+    } else if (replyId === "contact_sales") {
+      await sendSales(from, "contact_sales_button");
     } else if (replyId === "view_website") {
       await sendWebsite(from);
     }
@@ -1098,7 +1098,7 @@ async function handleIncomingMessage(message) {
 
     if (buttonAction === "view_fabrics") {
       await sendAllQualities(from);
-    } else if (buttonAction === "talk_sales") {
+    } else if (buttonAction === "contact_sales") {
       await sendSales(from, "welcome_template_button");
     }
   }
