@@ -531,11 +531,12 @@ async function sendPhoneNumberPrompt(to, companyName) {
 
 async function handleOnboarding(message) {
   const from = message.from;
-  const profile = getCustomerProfile(from);
+  let profile = getCustomerProfile(from);
   const pendingAction = getTemplateButtonAction(message);
 
   if (pendingAction) {
     updateCustomerProfile(from, { pendingAction });
+    profile = getCustomerProfile(from);
   }
 
   if (message.type === "text" && isUpdateDetailsMessage(message.text.body)) {
@@ -545,6 +546,7 @@ async function handleOnboarding(message) {
       onboardingStep: "not_started",
       onboardingComplete: false
     });
+    profile = getCustomerProfile(from);
   }
 
   if (profile.onboardingComplete && !(message.type === "text" && isUpdateDetailsMessage(message.text.body))) {
