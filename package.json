@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "check": "node --check server.js && node --check generate_catalog_pdfs.js && node --check tools/build_catalog.js && node --check tools/apply_design_code_map.js",
+    "check": "node --check server.js && node --check send_welcome_template.js && node --check generate_catalog_pdfs.js && node --check tools/build_catalog.js && node --check tools/apply_design_code_map.js",
     "test": "npm run check",
     "start": "node server.js",
     "prepare-production": "npm run build-catalog && npm run generate-catalog-pdfs && npm run check",
@@ -14,6 +14,7 @@
     "create-contact-sheets": "node tools/create_contact_sheets.js",
     "ocr-preview-renames": "node tools/ocr_preview_renames.js",
     "generate-catalog-pdfs": "node generate_catalog_pdfs.js",
+    "send-welcome-template": "node send_welcome_template.js",
     "upload-catalog-pdfs": "node generate_catalog_pdfs.js --upload"
   },
   "keywords": [],

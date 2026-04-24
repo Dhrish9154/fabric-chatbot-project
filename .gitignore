@@ -8,6 +8,7 @@ yarn-debug.log*
 yarn-error.log*
 
 data/interaction_log.jsonl
+data/customer_profiles.json
 catalogs/
 fabric-images/
 final-images/

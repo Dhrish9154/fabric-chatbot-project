@@ -19,6 +19,7 @@ app.use(
 const CATALOG_PATH = path.join(__dirname, "data", "catalog.json");
 const CATALOG_DOCUMENTS_PATH = path.join(__dirname, "data", "catalog_documents.json");
 const INTERACTION_LOG_PATH = path.join(__dirname, "data", "interaction_log.jsonl");
+const CUSTOMER_PROFILES_PATH = path.join(__dirname, "data", "customer_profiles.json");
 
 const TOKEN = process.env.WHATSAPP_TOKEN;
 const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
@@ -28,6 +29,7 @@ const WEBSITE_URL = process.env.WEBSITE_URL || "";
 const APP_SECRET = process.env.WHATSAPP_APP_SECRET || process.env.APP_SECRET;
 const LOW_STOCK_THRESHOLD = Number.parseFloat(process.env.LOW_STOCK_THRESHOLD || "250");
 const userState = {};
+const customerProfiles = loadCustomerProfiles();
 const whatsappClient = axios.create({
   baseURL: `https://graph.facebook.com/v23.0/${PHONE_NUMBER_ID}`,
   timeout: 15000,
@@ -58,6 +60,28 @@ function loadJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
 
+function loadCustomerProfiles() {
+  try {
+    if (!fs.existsSync(CUSTOMER_PROFILES_PATH)) {
+      return {};
+    }
+
+    return loadJson(CUSTOMER_PROFILES_PATH);
+  } catch (error) {
+    console.error("Customer profile load error:", error.message);
+    return {};
+  }
+}
+
+function saveCustomerProfiles() {
+  try {
+    fs.mkdirSync(path.dirname(CUSTOMER_PROFILES_PATH), { recursive: true });
+    fs.writeFileSync(CUSTOMER_PROFILES_PATH, JSON.stringify(customerProfiles, null, 2));
+  } catch (error) {
+    console.error("Customer profile save error:", error.message);
+  }
+}
+
 function loadCatalogData() {
   return {
     catalog: loadJson(CATALOG_PATH),
@@ -79,6 +103,63 @@ function logInteraction(eventType, details = {}) {
   } catch (error) {
     console.error("Interaction log error:", error.message);
   }
+}
+
+function getCustomerProfile(to) {
+  customerProfiles[to] = {
+    whatsappNumber: to,
+    companyName: "",
+    phoneNumber: "",
+    onboardingStep: "company_name",
+    onboardingComplete: false,
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    ...(customerProfiles[to] || {})
+  };
+
+  return customerProfiles[to];
+}
+
+function updateCustomerProfile(to, updates) {
+  customerProfiles[to] = {
+    ...getCustomerProfile(to),
+    ...updates,
+    updatedAt: new Date().toISOString()
+  };
+  saveCustomerProfiles();
+  return customerProfiles[to];
+}
+
+function normalizePhoneNumber(value) {
+  const text = String(value || "").trim();
+  const leadingPlus = text.startsWith("+") ? "+" : "";
+  const digits = text.replace(/\D/g, "");
+  return `${leadingPlus}${digits}`;
+}
+
+function isValidPhoneNumber(value) {
+  const digits = String(value || "").replace(/\D/g, "");
+  return digits.length >= 8 && digits.length <= 15;
+}
+
+function getTemplateButtonAction(message) {
+  if (message.type !== "button") {
+    return null;
+  }
+
+  const buttonValue = String(message.button?.payload || message.button?.text || "")
+    .trim()
+    .toLowerCase();
+
+  if (buttonValue === "view_fabrics" || buttonValue === "view fabrics") {
+    return "view_fabrics";
+  }
+
+  if (buttonValue === "talk_sales" || buttonValue === "contact sales" || buttonValue === "contact_sales") {
+    return "talk_sales";
+  }
+
+  return null;
 }
 
 function getAvailableQualities(catalog) {
@@ -211,6 +292,23 @@ function extractDesignCodeFromText(text, preferredQuality, catalog) {
   }
 
   return null;
+}
+
+function getQualityByListNumber(text, catalog) {
+  const trimmedText = String(text || "").trim();
+
+  if (!/^\d+$/.test(trimmedText)) {
+    return null;
+  }
+
+  const index = Number.parseInt(trimmedText, 10) - 1;
+  const qualities = getAvailableQualities(catalog);
+  return qualities[index] || null;
+}
+
+function getQualityByName(text, catalog) {
+  const normalizedText = String(text || "").trim().toUpperCase();
+  return getAvailableQualities(catalog).find((quality) => quality.toUpperCase() === normalizedText) || null;
 }
 
 function isGreetingMessage(text) {
@@ -389,6 +487,127 @@ async function sendMessage(payload) {
   }
 }
 
+async function sendCompanyNamePrompt(to) {
+  updateCustomerProfile(to, {
+    onboardingStep: "company_name",
+    onboardingComplete: false
+  });
+
+  await sendMessage({
+    messaging_product: "whatsapp",
+    to,
+    type: "text",
+    text: {
+      body:
+        "Welcome to Tianso Global.\n" +
+        "Before we show the fabric menu, please share your company name."
+    }
+  });
+
+  logInteraction("company_name_prompt_sent", { to });
+}
+
+async function sendPhoneNumberPrompt(to, companyName) {
+  await sendMessage({
+    messaging_product: "whatsapp",
+    to,
+    type: "text",
+    text: {
+      body:
+        `Thank you, ${companyName}.\n` +
+        "Please share your phone number for sales follow-up."
+    }
+  });
+
+  logInteraction("phone_number_prompt_sent", { to });
+}
+
+async function handleOnboarding(message) {
+  const from = message.from;
+  const profile = getCustomerProfile(from);
+  const pendingAction = getTemplateButtonAction(message);
+
+  if (profile.onboardingComplete) {
+    return false;
+  }
+
+  if (pendingAction) {
+    updateCustomerProfile(from, { pendingAction });
+  }
+
+  if (message.type !== "text") {
+    await sendCompanyNamePrompt(from);
+    return true;
+  }
+
+  const rawText = message.text.body.trim();
+
+  if (!rawText) {
+    await sendCompanyNamePrompt(from);
+    return true;
+  }
+
+  if (profile.onboardingStep === "company_name") {
+    const companyName = rawText;
+
+    updateCustomerProfile(from, {
+      companyName,
+      onboardingStep: "phone_number"
+    });
+
+    await sendPhoneNumberPrompt(from, companyName);
+    logInteraction("company_name_collected", { from, company_name: companyName });
+    return true;
+  }
+
+  if (profile.onboardingStep === "phone_number") {
+    const phoneNumber = normalizePhoneNumber(rawText);
+
+    if (!isValidPhoneNumber(phoneNumber)) {
+      await sendMessage({
+        messaging_product: "whatsapp",
+        to: from,
+        type: "text",
+        text: {
+          body: "Please send a valid phone number with country code if possible. Example: +91XXXXXXXXXX"
+        }
+      });
+      logInteraction("phone_number_invalid", { from, attempted_value: rawText });
+      return true;
+    }
+
+    updateCustomerProfile(from, {
+      phoneNumber,
+      onboardingStep: "complete",
+      onboardingComplete: true,
+      pendingAction: ""
+    });
+
+    logInteraction("phone_number_collected", { from, phone_number: phoneNumber });
+
+    await sendMessage({
+      messaging_product: "whatsapp",
+      to: from,
+      type: "text",
+      text: {
+        body: "Thank you. Your details are saved."
+      }
+    });
+
+    if (profile.pendingAction === "view_fabrics") {
+      await sendAllQualities(from);
+    } else if (profile.pendingAction === "talk_sales") {
+      await sendSales(from, "welcome_template_button");
+    } else {
+      await sendWelcome(from);
+    }
+    return true;
+  }
+
+  await sendCompanyNamePrompt(from);
+  return true;
+}
+
 function buildWelcomeSections() {
   const sections = [
     {
@@ -449,7 +668,7 @@ async function sendAllQualities(to) {
       body:
         `Available fabric qualities (${qualities.length}):\n\n` +
         `${qualityList}\n\n` +
-        "Reply with any quality name to receive its catalog PDF."
+        "Reply with the quality number or quality name to receive its catalog PDF."
     }
   });
 
@@ -496,6 +715,7 @@ async function sendHelp(to) {
       body:
         "You can use this chatbot in a few simple ways:\n" +
         "- Choose View fabrics to open the quality menu\n" +
+        "- Reply with a quality number like 1 or 2 to receive that catalog\n" +
         "- Send a design code like BALI_388, bali-388, or bali 388 to check stock\n" +
         "- Ask commercial questions like price, delivery, order, quantity, or colour-wise stock to connect with sales"
     }
@@ -764,12 +984,17 @@ async function handleIncomingMessage(message) {
   const from = message.from;
   logInteraction("message_received", { from, message_type: message.type });
 
+  if (await handleOnboarding(message)) {
+    return;
+  }
+
   if (message.type === "text") {
     const rawText = message.text.body.trim();
-    const text = rawText.toUpperCase();
     const { catalog } = loadCatalogData();
     const preferredQuality = userState[from]?.currentQuality;
     const extractedDesignCode = extractDesignCodeFromText(rawText, preferredQuality, catalog);
+    const selectedQualityByName = getQualityByName(rawText, catalog);
+    const selectedQualityByNumber = getQualityByListNumber(rawText, catalog);
     const commercialIntent = isCommercialIntentMessage(rawText);
     const stockIntent = isStockIntentMessage(rawText);
 
@@ -779,8 +1004,10 @@ async function handleIncomingMessage(message) {
       await sendHelp(from);
     } else if (isCatalogIntentMessage(rawText)) {
       await sendAllQualities(from);
-    } else if (catalog.qualities?.[text]) {
-      await sendQualityDesigns(from, text);
+    } else if (selectedQualityByName) {
+      await sendQualityDesigns(from, selectedQualityByName);
+    } else if (selectedQualityByNumber) {
+      await sendQualityDesigns(from, selectedQualityByNumber);
     } else if (commercialIntent) {
       await sendSales(from, "commercial_question");
     } else if (extractedDesignCode) {
@@ -824,6 +1051,16 @@ async function handleIncomingMessage(message) {
       await sendSales(from, "confirm_order_button");
     } else if (replyId === "view_website") {
       await sendWebsite(from);
+    }
+  }
+
+  if (message.type === "button") {
+    const buttonAction = getTemplateButtonAction(message);
+
+    if (buttonAction === "view_fabrics") {
+      await sendAllQualities(from);
+    } else if (buttonAction === "talk_sales") {
+      await sendSales(from, "welcome_template_button");
     }
   }
 }
