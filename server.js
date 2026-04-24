@@ -110,7 +110,7 @@ function getCustomerProfile(to) {
     whatsappNumber: to,
     companyName: "",
     phoneNumber: "",
-    onboardingStep: "company_name",
+    onboardingStep: "not_started",
     onboardingComplete: false,
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
@@ -140,6 +140,13 @@ function normalizePhoneNumber(value) {
 function isValidPhoneNumber(value) {
   const digits = String(value || "").replace(/\D/g, "");
   return digits.length >= 8 && digits.length <= 15;
+}
+
+function isUpdateDetailsMessage(text) {
+  const normalizedText = String(text || "").trim().toLowerCase();
+  return ["update details", "reset details", "change details", "change company", "change phone"].includes(
+    normalizedText
+  );
 }
 
 function getTemplateButtonAction(message) {
@@ -527,15 +534,24 @@ async function handleOnboarding(message) {
   const profile = getCustomerProfile(from);
   const pendingAction = getTemplateButtonAction(message);
 
-  if (profile.onboardingComplete) {
-    return false;
-  }
-
   if (pendingAction) {
     updateCustomerProfile(from, { pendingAction });
   }
 
-  if (message.type !== "text") {
+  if (message.type === "text" && isUpdateDetailsMessage(message.text.body)) {
+    updateCustomerProfile(from, {
+      companyName: "",
+      phoneNumber: "",
+      onboardingStep: "not_started",
+      onboardingComplete: false
+    });
+  }
+
+  if (profile.onboardingComplete && !(message.type === "text" && isUpdateDetailsMessage(message.text.body))) {
+    return false;
+  }
+
+  if (profile.onboardingStep === "not_started" || message.type !== "text") {
     await sendCompanyNamePrompt(from);
     return true;
   }
@@ -548,6 +564,11 @@ async function handleOnboarding(message) {
   }
 
   if (profile.onboardingStep === "company_name") {
+    if (!profile.companyName && isGreetingMessage(rawText)) {
+      await sendCompanyNamePrompt(from);
+      return true;
+    }
+
     const companyName = rawText;
 
     updateCustomerProfile(from, {
@@ -717,7 +738,8 @@ async function sendHelp(to) {
         "- Choose View fabrics to open the quality menu\n" +
         "- Reply with a quality number like 1 or 2 to receive that catalog\n" +
         "- Send a design code like BALI_388, bali-388, or bali 388 to check stock\n" +
-        "- Ask commercial questions like price, delivery, order, quantity, or colour-wise stock to connect with sales"
+        "- Ask commercial questions like price, delivery, order, quantity, or colour-wise stock to connect with sales\n" +
+        "- Send update details to change your company name or phone number"
     }
   });
 
