@@ -29,6 +29,7 @@ const WEBSITE_URL = process.env.WEBSITE_URL || "";
 const APP_SECRET = process.env.WHATSAPP_APP_SECRET || process.env.APP_SECRET;
 const LOW_STOCK_THRESHOLD = Number.parseFloat(process.env.LOW_STOCK_THRESHOLD || "250");
 const STOCK_LOOKUP_ENABLED = process.env.STOCK_LOOKUP_ENABLED === "true";
+const ALLOWED_WHATSAPP_NUMBERS = parseAllowedWhatsAppNumbers(process.env.ALLOWED_WHATSAPP_NUMBERS);
 const userState = {};
 const customerProfiles = loadCustomerProfiles();
 const whatsappClient = axios.create({
@@ -133,6 +134,19 @@ function updateCustomerProfile(to, updates) {
 
 function normalizeWhatsAppLinkNumber(value) {
   return String(value || "").replace(/\D/g, "");
+}
+
+function parseAllowedWhatsAppNumbers(value) {
+  return new Set(
+    String(value || "")
+      .split(",")
+      .map((number) => normalizeWhatsAppLinkNumber(number))
+      .filter(Boolean)
+  );
+}
+
+function isAllowedWhatsAppNumber(value) {
+  return !ALLOWED_WHATSAPP_NUMBERS.size || ALLOWED_WHATSAPP_NUMBERS.has(normalizeWhatsAppLinkNumber(value));
 }
 
 function buildSalesWhatsAppLink(to) {
@@ -1027,6 +1041,19 @@ async function handleIncomingMessage(message) {
 
   const from = message.from;
   logInteraction("message_received", { from, message_type: message.type });
+
+  if (!isAllowedWhatsAppNumber(from)) {
+    logInteraction("blocked_unapproved_number", { from });
+    await sendMessage({
+      messaging_product: "whatsapp",
+      to: from,
+      type: "text",
+      text: {
+        body: "This WhatsApp bot is currently available only for approved numbers."
+      }
+    });
+    return;
+  }
 
   if (await handleOnboarding(message)) {
     return;

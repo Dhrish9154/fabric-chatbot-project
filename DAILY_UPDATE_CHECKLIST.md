@@ -18,6 +18,16 @@
 5. Add or migrate the real WhatsApp business number after the test flow works.
 6. Update Render environment variables with the real `PHONE_NUMBER_ID`, token, verify token, and business settings.
 
+## Approved WhatsApp Numbers
+
+To limit bot access, set this in Render with comma-separated numbers including country code:
+
+```env
+ALLOWED_WHATSAPP_NUMBERS=919876543210,919998337755
+```
+
+Leave `ALLOWED_WHATSAPP_NUMBERS` blank to allow any customer to use the bot.
+
 ## WhatsApp Welcome Template
 
 Use these values in Meta WhatsApp Manager:
