@@ -130,18 +130,6 @@ function updateCustomerProfile(to, updates) {
   return customerProfiles[to];
 }
 
-function normalizePhoneNumber(value) {
-  const text = String(value || "").trim();
-  const leadingPlus = text.startsWith("+") ? "+" : "";
-  const digits = text.replace(/\D/g, "");
-  return `${leadingPlus}${digits}`;
-}
-
-function isValidPhoneNumber(value) {
-  const digits = String(value || "").replace(/\D/g, "");
-  return digits.length >= 8 && digits.length <= 15;
-}
-
 function normalizeWhatsAppLinkNumber(value) {
   return String(value || "").replace(/\D/g, "");
 }
@@ -160,7 +148,6 @@ function buildSalesWhatsAppLink(to) {
     "I want to discuss fabrics / place an order.",
     "",
     `Company name: ${profile.companyName || "Not shared"}`,
-    `Customer phone: ${profile.phoneNumber || "Not shared"}`,
     `WhatsApp number: +${normalizeWhatsAppLinkNumber(profile.whatsappNumber || to)}`
   ].join("\n");
 
@@ -218,9 +205,7 @@ async function sendSalesHandoffButton(to, body, context) {
 
 function isUpdateDetailsMessage(text) {
   const normalizedText = String(text || "").trim().toLowerCase();
-  return ["update details", "reset details", "change details", "change company", "change phone"].includes(
-    normalizedText
-  );
+  return ["update details", "reset details", "change details", "change company"].includes(normalizedText);
 }
 
 function getTemplateButtonAction(message) {
@@ -588,21 +573,6 @@ async function sendCompanyNamePrompt(to) {
   logInteraction("company_name_prompt_sent", { to });
 }
 
-async function sendPhoneNumberPrompt(to, companyName) {
-  await sendMessage({
-    messaging_product: "whatsapp",
-    to,
-    type: "text",
-    text: {
-      body:
-        `Thank you, ${companyName}.\n` +
-        "Please share your phone number for sales follow-up."
-    }
-  });
-
-  logInteraction("phone_number_prompt_sent", { to });
-}
-
 async function handleOnboarding(message) {
   const from = message.from;
   let profile = getCustomerProfile(from);
@@ -646,41 +616,16 @@ async function handleOnboarding(message) {
     }
 
     const companyName = rawText;
+    const pendingAction = profile.pendingAction;
 
     updateCustomerProfile(from, {
       companyName,
-      onboardingStep: "phone_number"
-    });
-
-    await sendPhoneNumberPrompt(from, companyName);
-    logInteraction("company_name_collected", { from, company_name: companyName });
-    return true;
-  }
-
-  if (profile.onboardingStep === "phone_number") {
-    const phoneNumber = normalizePhoneNumber(rawText);
-
-    if (!isValidPhoneNumber(phoneNumber)) {
-      await sendMessage({
-        messaging_product: "whatsapp",
-        to: from,
-        type: "text",
-        text: {
-          body: "Please send a valid phone number with country code if possible. Example: +91XXXXXXXXXX"
-        }
-      });
-      logInteraction("phone_number_invalid", { from, attempted_value: rawText });
-      return true;
-    }
-
-    updateCustomerProfile(from, {
-      phoneNumber,
       onboardingStep: "complete",
       onboardingComplete: true,
       pendingAction: ""
     });
 
-    logInteraction("phone_number_collected", { from, phone_number: phoneNumber });
+    logInteraction("company_name_collected", { from, company_name: companyName });
 
     await sendMessage({
       messaging_product: "whatsapp",
@@ -691,13 +636,23 @@ async function handleOnboarding(message) {
       }
     });
 
-    if (profile.pendingAction === "view_fabrics") {
+    if (pendingAction === "view_fabrics") {
       await sendAllQualities(from);
-    } else if (profile.pendingAction === "talk_sales") {
+    } else if (pendingAction === "talk_sales") {
       await sendSales(from, "welcome_template_button");
     } else {
       await sendWelcome(from);
     }
+    return true;
+  }
+
+  if (profile.onboardingStep === "phone_number") {
+    updateCustomerProfile(from, {
+      onboardingStep: "complete",
+      onboardingComplete: true,
+      pendingAction: ""
+    });
+    await sendWelcome(from);
     return true;
   }
 
@@ -711,7 +666,6 @@ function buildWelcomeSections() {
       title: "Quick actions",
       rows: [
         { id: "view_fabrics", title: "View fabrics" },
-        { id: "confirm_order", title: "Confirm order" },
         { id: "talk_sales", title: "Talk to sales" }
       ]
     }
@@ -810,7 +764,7 @@ async function sendHelp(to) {
         "- Reply with a quality number like 1 or 2 to receive that catalog\n" +
         "- Send a design code like BALI_388, bali-388, or bali 388 to check stock\n" +
         "- Ask commercial questions like price, delivery, order, quantity, or colour-wise stock to connect with sales\n" +
-        "- Send update details to change your company name or phone number"
+        "- Send update details to change your company name"
     }
   });
 
@@ -902,8 +856,7 @@ async function sendQualityDesigns(to, quality) {
       type: "text",
       text: {
         body:
-          `After reviewing the catalog, please contact our sales team to confirm your order.\n` +
-          `Contact: ${SALES_NUMBER}`
+          "After reviewing the catalog, use Contact Sales if you need rate, quantity, delivery, or color-wise stock confirmation."
       }
     });
   }
@@ -921,11 +874,7 @@ async function sendQualityDesigns(to, quality) {
         buttons: [
           {
             type: "reply",
-            reply: { id: `restart_${quality}`, title: "Send catalog again" }
-          },
-          {
-            type: "reply",
-            reply: { id: "confirm_order", title: "Confirm order" }
+            reply: { id: "view_fabrics", title: "View more fabrics" }
           },
           {
             type: "reply",
@@ -999,7 +948,7 @@ async function sendStock(to, designId, source = "text") {
 
   await sendSalesHandoffButton(
     to,
-    `Open a sales chat for ${found.id}. Your company name and phone number will be filled in automatically.`,
+    `Open a sales chat for ${found.id}. Your company name and WhatsApp number will be filled in automatically.`,
     "stock_lookup"
   );
 
@@ -1016,11 +965,7 @@ async function sendStock(to, designId, source = "text") {
         buttons: [
           {
             type: "reply",
-            reply: { id: `restart_${foundQuality}`, title: "Send catalog again" }
-          },
-          {
-            type: "reply",
-            reply: { id: "confirm_order", title: "Confirm order" }
+            reply: { id: "view_fabrics", title: "View more fabrics" }
           },
           {
             type: "reply",
@@ -1139,15 +1084,10 @@ async function handleIncomingMessage(message) {
     if (replyId.startsWith("quality_")) {
       const quality = replyId.replace("quality_", "");
       await sendQualityDesigns(from, quality);
-    } else if (replyId.startsWith("restart_")) {
-      const quality = replyId.replace("restart_", "");
-      await sendQualityDesigns(from, quality);
     } else if (replyId === "view_fabrics" || replyId === "view_qualities") {
       await sendAllQualities(from);
     } else if (replyId === "talk_sales") {
       await sendSales(from, "talk_sales_button");
-    } else if (replyId === "confirm_order") {
-      await sendSales(from, "confirm_order_button");
     } else if (replyId === "view_website") {
       await sendWebsite(from);
     }
