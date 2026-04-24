@@ -1,0 +1,4718 @@
+{
+  "qualities": {
+    "ARABIAN": [
+      {
+        "id": "ARABIAN_075",
+        "name": "ARABIAN_075",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_075.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_303",
+        "name": "ARABIAN_303",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_303.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_313",
+        "name": "ARABIAN_313",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_313.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_316",
+        "name": "ARABIAN_316",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_316.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_339",
+        "name": "ARABIAN_339",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_339.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_452",
+        "name": "ARABIAN_452",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_452.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_453",
+        "name": "ARABIAN_453",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_453.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_586",
+        "name": "ARABIAN_586",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_586.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_588",
+        "name": "ARABIAN_588",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_588.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_607",
+        "name": "ARABIAN_607",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_607.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_622",
+        "name": "ARABIAN_622",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_622.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_623",
+        "name": "ARABIAN_623",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_623.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_628",
+        "name": "ARABIAN_628",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_628.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_683",
+        "name": "ARABIAN_683",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_683.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_685",
+        "name": "ARABIAN_685",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_685.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_794",
+        "name": "ARABIAN_794",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_794.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_796",
+        "name": "ARABIAN_796",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_796.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_838",
+        "name": "ARABIAN_838",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_838.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_1058",
+        "name": "ARABIAN_1058",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_1058.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_1377",
+        "name": "ARABIAN_1377",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_1377.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_1625",
+        "name": "ARABIAN_1625",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_1625.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_13671",
+        "name": "ARABIAN_13671",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_13671.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_14609",
+        "name": "ARABIAN_14609",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_14609.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_14611",
+        "name": "ARABIAN_14611",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_14611.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_16210",
+        "name": "ARABIAN_16210",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_16210.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARABIAN_16254",
+        "name": "ARABIAN_16254",
+        "image": "https://yourdomain.com/images/arabian/ARABIAN_16254.jpeg",
+        "stock": 0
+      }
+    ],
+    "ARROW": [
+      {
+        "id": "ARROW_1054",
+        "name": "ARROW_1054",
+        "image": "https://yourdomain.com/images/arrow/ARROW_1054.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARROW_1055",
+        "name": "ARROW_1055",
+        "image": "https://yourdomain.com/images/arrow/ARROW_1055.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARROW_1056",
+        "name": "ARROW_1056",
+        "image": "https://yourdomain.com/images/arrow/ARROW_1056.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARROW_1057",
+        "name": "ARROW_1057",
+        "image": "https://yourdomain.com/images/arrow/ARROW_1057.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARROW_1070",
+        "name": "ARROW_1070",
+        "image": "https://yourdomain.com/images/arrow/ARROW_1070.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARROW_1073",
+        "name": "ARROW_1073",
+        "image": "https://yourdomain.com/images/arrow/ARROW_1073.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARROW_1074",
+        "name": "ARROW_1074",
+        "image": "https://yourdomain.com/images/arrow/ARROW_1074.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARROW_1080",
+        "name": "ARROW_1080",
+        "image": "https://yourdomain.com/images/arrow/ARROW_1080.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARROW_1081",
+        "name": "ARROW_1081",
+        "image": "https://yourdomain.com/images/arrow/ARROW_1081.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARROW_1082",
+        "name": "ARROW_1082",
+        "image": "https://yourdomain.com/images/arrow/ARROW_1082.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ARROW_1083",
+        "name": "ARROW_1083",
+        "image": "https://yourdomain.com/images/arrow/ARROW_1083.jpeg",
+        "stock": 0
+      }
+    ],
+    "BALI": [
+      {
+        "id": "BALI_388",
+        "name": "BALI_388",
+        "image": "https://yourdomain.com/images/bali/BALI_388.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_389",
+        "name": "BALI_389",
+        "image": "https://yourdomain.com/images/bali/BALI_389.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_396",
+        "name": "BALI_396",
+        "image": "https://yourdomain.com/images/bali/BALI_396.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_411",
+        "name": "BALI_411",
+        "image": "https://yourdomain.com/images/bali/BALI_411.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_527",
+        "name": "BALI_527",
+        "image": "https://yourdomain.com/images/bali/BALI_527.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_531",
+        "name": "BALI_531",
+        "image": "https://yourdomain.com/images/bali/BALI_531.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_543",
+        "name": "BALI_543",
+        "image": "https://yourdomain.com/images/bali/BALI_543.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_629",
+        "name": "BALI_629",
+        "image": "https://yourdomain.com/images/bali/BALI_629.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_637",
+        "name": "BALI_637",
+        "image": "https://yourdomain.com/images/bali/BALI_637.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_716",
+        "name": "BALI_716",
+        "image": "https://yourdomain.com/images/bali/BALI_716.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_717",
+        "name": "BALI_717",
+        "image": "https://yourdomain.com/images/bali/BALI_717.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_718",
+        "name": "BALI_718",
+        "image": "https://yourdomain.com/images/bali/BALI_718.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_719",
+        "name": "BALI_719",
+        "image": "https://yourdomain.com/images/bali/BALI_719.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_800",
+        "name": "BALI_800",
+        "image": "https://yourdomain.com/images/bali/BALI_800.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_834",
+        "name": "BALI_834",
+        "image": "https://yourdomain.com/images/bali/BALI_834.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_1212",
+        "name": "BALI_1212",
+        "image": "https://yourdomain.com/images/bali/BALI_1212.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_1213",
+        "name": "BALI_1213",
+        "image": "https://yourdomain.com/images/bali/BALI_1213.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI_1214",
+        "name": "BALI_1214",
+        "image": "https://yourdomain.com/images/bali/BALI_1214.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BALI-03",
+        "name": "BALI-03",
+        "image": "https://yourdomain.com/images/bali/BALI-03.jpeg",
+        "stock": 0
+      }
+    ],
+    "BRAZIL": [
+      {
+        "id": "BRAZIL_07",
+        "name": "BRAZIL_07",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_07.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_18",
+        "name": "BRAZIL_18",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_18.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_19",
+        "name": "BRAZIL_19",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_19.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_24",
+        "name": "BRAZIL_24",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_24.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_25",
+        "name": "BRAZIL_25",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_25.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_27",
+        "name": "BRAZIL_27",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_27.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_28",
+        "name": "BRAZIL_28",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_28.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_48",
+        "name": "BRAZIL_48",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_48.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_49",
+        "name": "BRAZIL_49",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_49.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_52",
+        "name": "BRAZIL_52",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_52.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_53",
+        "name": "BRAZIL_53",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_53.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_54",
+        "name": "BRAZIL_54",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_54.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_56",
+        "name": "BRAZIL_56",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_56.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_58",
+        "name": "BRAZIL_58",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_58.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_59",
+        "name": "BRAZIL_59",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_59.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_60",
+        "name": "BRAZIL_60",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_60.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_62",
+        "name": "BRAZIL_62",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_62.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_63",
+        "name": "BRAZIL_63",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_63.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_64",
+        "name": "BRAZIL_64",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_64.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRAZIL_65",
+        "name": "BRAZIL_65",
+        "image": "https://yourdomain.com/images/brazil/BRAZIL_65.jpeg",
+        "stock": 0
+      }
+    ],
+    "BRESKA": [
+      {
+        "id": "BRESKA_08",
+        "name": "BRESKA_08",
+        "image": "https://yourdomain.com/images/breska/BRESKA_08.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_171",
+        "name": "BRESKA_171",
+        "image": "https://yourdomain.com/images/breska/BRESKA_171.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_179",
+        "name": "BRESKA_179",
+        "image": "https://yourdomain.com/images/breska/BRESKA_179.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_399",
+        "name": "BRESKA_399",
+        "image": "https://yourdomain.com/images/breska/BRESKA_399.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_408",
+        "name": "BRESKA_408",
+        "image": "https://yourdomain.com/images/breska/BRESKA_408.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_409",
+        "name": "BRESKA_409",
+        "image": "https://yourdomain.com/images/breska/BRESKA_409.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_434",
+        "name": "BRESKA_434",
+        "image": "https://yourdomain.com/images/breska/BRESKA_434.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_435",
+        "name": "BRESKA_435",
+        "image": "https://yourdomain.com/images/breska/BRESKA_435.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_437",
+        "name": "BRESKA_437",
+        "image": "https://yourdomain.com/images/breska/BRESKA_437.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_491",
+        "name": "BRESKA_491",
+        "image": "https://yourdomain.com/images/breska/BRESKA_491.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_501",
+        "name": "BRESKA_501",
+        "image": "https://yourdomain.com/images/breska/BRESKA_501.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_503",
+        "name": "BRESKA_503",
+        "image": "https://yourdomain.com/images/breska/BRESKA_503.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_535",
+        "name": "BRESKA_535",
+        "image": "https://yourdomain.com/images/breska/BRESKA_535.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_538",
+        "name": "BRESKA_538",
+        "image": "https://yourdomain.com/images/breska/BRESKA_538.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_634",
+        "name": "BRESKA_634",
+        "image": "https://yourdomain.com/images/breska/BRESKA_634.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_635",
+        "name": "BRESKA_635",
+        "image": "https://yourdomain.com/images/breska/BRESKA_635.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_636",
+        "name": "BRESKA_636",
+        "image": "https://yourdomain.com/images/breska/BRESKA_636.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_1105",
+        "name": "BRESKA_1105",
+        "image": "https://yourdomain.com/images/breska/BRESKA_1105.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "BRESKA_1106",
+        "name": "BRESKA_1106",
+        "image": "https://yourdomain.com/images/breska/BRESKA_1106.jpeg",
+        "stock": 0
+      }
+    ],
+    "DANANG": [
+      {
+        "id": "DANANG_366",
+        "name": "DANANG_366",
+        "image": "https://yourdomain.com/images/danang/DANANG_366.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_393",
+        "name": "DANANG_393",
+        "image": "https://yourdomain.com/images/danang/DANANG_393.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_400",
+        "name": "DANANG_400",
+        "image": "https://yourdomain.com/images/danang/DANANG_400.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_524",
+        "name": "DANANG_524",
+        "image": "https://yourdomain.com/images/danang/DANANG_524.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_544",
+        "name": "DANANG_544",
+        "image": "https://yourdomain.com/images/danang/DANANG_544.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_648",
+        "name": "DANANG_648",
+        "image": "https://yourdomain.com/images/danang/DANANG_648.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_649",
+        "name": "DANANG_649",
+        "image": "https://yourdomain.com/images/danang/DANANG_649.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_672",
+        "name": "DANANG_672",
+        "image": "https://yourdomain.com/images/danang/DANANG_672.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_673",
+        "name": "DANANG_673",
+        "image": "https://yourdomain.com/images/danang/DANANG_673.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_675",
+        "name": "DANANG_675",
+        "image": "https://yourdomain.com/images/danang/DANANG_675.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_677",
+        "name": "DANANG_677",
+        "image": "https://yourdomain.com/images/danang/DANANG_677.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_678",
+        "name": "DANANG_678",
+        "image": "https://yourdomain.com/images/danang/DANANG_678.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_679",
+        "name": "DANANG_679",
+        "image": "https://yourdomain.com/images/danang/DANANG_679.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_680",
+        "name": "DANANG_680",
+        "image": "https://yourdomain.com/images/danang/DANANG_680.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_699",
+        "name": "DANANG_699",
+        "image": "https://yourdomain.com/images/danang/DANANG_699.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_704",
+        "name": "DANANG_704",
+        "image": "https://yourdomain.com/images/danang/DANANG_704.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_705",
+        "name": "DANANG_705",
+        "image": "https://yourdomain.com/images/danang/DANANG_705.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_708",
+        "name": "DANANG_708",
+        "image": "https://yourdomain.com/images/danang/DANANG_708.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_932",
+        "name": "DANANG_932",
+        "image": "https://yourdomain.com/images/danang/DANANG_932.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_933",
+        "name": "DANANG_933",
+        "image": "https://yourdomain.com/images/danang/DANANG_933.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_934",
+        "name": "DANANG_934",
+        "image": "https://yourdomain.com/images/danang/DANANG_934.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_938",
+        "name": "DANANG_938",
+        "image": "https://yourdomain.com/images/danang/DANANG_938.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DANANG_940",
+        "name": "DANANG_940",
+        "image": "https://yourdomain.com/images/danang/DANANG_940.jpeg",
+        "stock": 0
+      }
+    ],
+    "DHURANDHAR": [
+      {
+        "id": "DHURANDHAR_1201",
+        "name": "DHURANDHAR_1201",
+        "image": "https://yourdomain.com/images/dhurandhar/DHURANDHAR_1201.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DHURANDHAR_1202",
+        "name": "DHURANDHAR_1202",
+        "image": "https://yourdomain.com/images/dhurandhar/DHURANDHAR_1202.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DHURANDHAR_1220",
+        "name": "DHURANDHAR_1220",
+        "image": "https://yourdomain.com/images/dhurandhar/DHURANDHAR_1220.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DHURANDHAR_1221",
+        "name": "DHURANDHAR_1221",
+        "image": "https://yourdomain.com/images/dhurandhar/DHURANDHAR_1221.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DHURANDHAR_1222",
+        "name": "DHURANDHAR_1222",
+        "image": "https://yourdomain.com/images/dhurandhar/DHURANDHAR_1222.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DHURANDHAR_1230",
+        "name": "DHURANDHAR_1230",
+        "image": "https://yourdomain.com/images/dhurandhar/DHURANDHAR_1230.jpeg",
+        "stock": 0
+      }
+    ],
+    "DURBAN": [
+      {
+        "id": "DURBAN_03",
+        "name": "DURBAN_03",
+        "image": "https://yourdomain.com/images/durban/DURBAN_03.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DURBAN_1001",
+        "name": "DURBAN_1001",
+        "image": "https://yourdomain.com/images/durban/DURBAN_1001.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DURBAN_1003",
+        "name": "DURBAN_1003",
+        "image": "https://yourdomain.com/images/durban/DURBAN_1003.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DURBAN_1004",
+        "name": "DURBAN_1004",
+        "image": "https://yourdomain.com/images/durban/DURBAN_1004.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DURBAN_1041",
+        "name": "DURBAN_1041",
+        "image": "https://yourdomain.com/images/durban/DURBAN_1041.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DURBAN_1052",
+        "name": "DURBAN_1052",
+        "image": "https://yourdomain.com/images/durban/DURBAN_1052.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DURBAN_1076",
+        "name": "DURBAN_1076",
+        "image": "https://yourdomain.com/images/durban/DURBAN_1076.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DURBAN_1077",
+        "name": "DURBAN_1077",
+        "image": "https://yourdomain.com/images/durban/DURBAN_1077.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DURBAN_1114",
+        "name": "DURBAN_1114",
+        "image": "https://yourdomain.com/images/durban/DURBAN_1114.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DURBAN_1115",
+        "name": "DURBAN_1115",
+        "image": "https://yourdomain.com/images/durban/DURBAN_1115.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "DURBAN_1116",
+        "name": "DURBAN_1116",
+        "image": "https://yourdomain.com/images/durban/DURBAN_1116.jpeg",
+        "stock": 0
+      }
+    ],
+    "ETHIOPIA": [
+      {
+        "id": "ETHIOPIA_15",
+        "name": "ETHIOPIA_15",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_15.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_217",
+        "name": "ETHIOPIA_217",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_217.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_557",
+        "name": "ETHIOPIA_557",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_557.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_562",
+        "name": "ETHIOPIA_562",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_562.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_856",
+        "name": "ETHIOPIA_856",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_856.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_956",
+        "name": "ETHIOPIA_956",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_956.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_958",
+        "name": "ETHIOPIA_958",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_958.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_969",
+        "name": "ETHIOPIA_969",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_969.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_970",
+        "name": "ETHIOPIA_970",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_970.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_985",
+        "name": "ETHIOPIA_985",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_985.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_1079",
+        "name": "ETHIOPIA_1079",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_1079.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_1101",
+        "name": "ETHIOPIA_1101",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_1101.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_1135",
+        "name": "ETHIOPIA_1135",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_1135.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_1136",
+        "name": "ETHIOPIA_1136",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_1136.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_1172",
+        "name": "ETHIOPIA_1172",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_1172.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_1174",
+        "name": "ETHIOPIA_1174",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_1174.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "ETHIOPIA_1175",
+        "name": "ETHIOPIA_1175",
+        "image": "https://yourdomain.com/images/ethiopia/ETHIOPIA_1175.jpeg",
+        "stock": 0
+      }
+    ],
+    "FUSION": [
+      {
+        "id": "FUSION_530",
+        "name": "FUSION_530",
+        "image": "https://yourdomain.com/images/fusion/FUSION_530.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_533",
+        "name": "FUSION_533",
+        "image": "https://yourdomain.com/images/fusion/FUSION_533.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_534",
+        "name": "FUSION_534",
+        "image": "https://yourdomain.com/images/fusion/FUSION_534.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_536",
+        "name": "FUSION_536",
+        "image": "https://yourdomain.com/images/fusion/FUSION_536.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_541",
+        "name": "FUSION_541",
+        "image": "https://yourdomain.com/images/fusion/FUSION_541.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_645",
+        "name": "FUSION_645",
+        "image": "https://yourdomain.com/images/fusion/FUSION_645.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_661",
+        "name": "FUSION_661",
+        "image": "https://yourdomain.com/images/fusion/FUSION_661.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_662",
+        "name": "FUSION_662",
+        "image": "https://yourdomain.com/images/fusion/FUSION_662.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_664",
+        "name": "FUSION_664",
+        "image": "https://yourdomain.com/images/fusion/FUSION_664.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_665",
+        "name": "FUSION_665",
+        "image": "https://yourdomain.com/images/fusion/FUSION_665.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_666",
+        "name": "FUSION_666",
+        "image": "https://yourdomain.com/images/fusion/FUSION_666.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_667",
+        "name": "FUSION_667",
+        "image": "https://yourdomain.com/images/fusion/FUSION_667.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_843",
+        "name": "FUSION_843",
+        "image": "https://yourdomain.com/images/fusion/FUSION_843.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_845",
+        "name": "FUSION_845",
+        "image": "https://yourdomain.com/images/fusion/FUSION_845.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_846",
+        "name": "FUSION_846",
+        "image": "https://yourdomain.com/images/fusion/FUSION_846.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_961",
+        "name": "FUSION_961",
+        "image": "https://yourdomain.com/images/fusion/FUSION_961.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "FUSION_962",
+        "name": "FUSION_962",
+        "image": "https://yourdomain.com/images/fusion/FUSION_962.jpeg",
+        "stock": 0
+      }
+    ],
+    "GHANA": [
+      {
+        "id": "GHANA_01",
+        "name": "GHANA_01",
+        "image": "https://yourdomain.com/images/ghana/GHANA_01.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_16",
+        "name": "GHANA_16",
+        "image": "https://yourdomain.com/images/ghana/GHANA_16.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_21",
+        "name": "GHANA_21",
+        "image": "https://yourdomain.com/images/ghana/GHANA_21.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_22",
+        "name": "GHANA_22",
+        "image": "https://yourdomain.com/images/ghana/GHANA_22.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_24",
+        "name": "GHANA_24",
+        "image": "https://yourdomain.com/images/ghana/GHANA_24.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_139",
+        "name": "GHANA_139",
+        "image": "https://yourdomain.com/images/ghana/GHANA_139.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_455",
+        "name": "GHANA_455",
+        "image": "https://yourdomain.com/images/ghana/GHANA_455.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_869",
+        "name": "GHANA_869",
+        "image": "https://yourdomain.com/images/ghana/GHANA_869.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_870",
+        "name": "GHANA_870",
+        "image": "https://yourdomain.com/images/ghana/GHANA_870.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_872",
+        "name": "GHANA_872",
+        "image": "https://yourdomain.com/images/ghana/GHANA_872.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_885",
+        "name": "GHANA_885",
+        "image": "https://yourdomain.com/images/ghana/GHANA_885.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_886",
+        "name": "GHANA_886",
+        "image": "https://yourdomain.com/images/ghana/GHANA_886.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_888",
+        "name": "GHANA_888",
+        "image": "https://yourdomain.com/images/ghana/GHANA_888.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1109",
+        "name": "GHANA_1109",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1109.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1110",
+        "name": "GHANA_1110",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1110.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1111",
+        "name": "GHANA_1111",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1111.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1113",
+        "name": "GHANA_1113",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1113.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1117",
+        "name": "GHANA_1117",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1117.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1118",
+        "name": "GHANA_1118",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1118.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1119",
+        "name": "GHANA_1119",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1119.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1223",
+        "name": "GHANA_1223",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1223.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1224",
+        "name": "GHANA_1224",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1224.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1225",
+        "name": "GHANA_1225",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1225.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1226",
+        "name": "GHANA_1226",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1226.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_1228",
+        "name": "GHANA_1228",
+        "image": "https://yourdomain.com/images/ghana/GHANA_1228.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_15617",
+        "name": "GHANA_15617",
+        "image": "https://yourdomain.com/images/ghana/GHANA_15617.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_15618",
+        "name": "GHANA_15618",
+        "image": "https://yourdomain.com/images/ghana/GHANA_15618.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_15706",
+        "name": "GHANA_15706",
+        "image": "https://yourdomain.com/images/ghana/GHANA_15706.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_15737",
+        "name": "GHANA_15737",
+        "image": "https://yourdomain.com/images/ghana/GHANA_15737.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_16169",
+        "name": "GHANA_16169",
+        "image": "https://yourdomain.com/images/ghana/GHANA_16169.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_16252",
+        "name": "GHANA_16252",
+        "image": "https://yourdomain.com/images/ghana/GHANA_16252.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_16253",
+        "name": "GHANA_16253",
+        "image": "https://yourdomain.com/images/ghana/GHANA_16253.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "GHANA_16355",
+        "name": "GHANA_16355",
+        "image": "https://yourdomain.com/images/ghana/GHANA_16355.jpeg",
+        "stock": 0
+      }
+    ],
+    "H.K": [
+      {
+        "id": "H_K_178",
+        "name": "H_K_178",
+        "image": "https://yourdomain.com/images/h.k/H_K_178.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_182",
+        "name": "H_K_182",
+        "image": "https://yourdomain.com/images/h.k/H_K_182.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_184",
+        "name": "H_K_184",
+        "image": "https://yourdomain.com/images/h.k/H_K_184.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_207",
+        "name": "H_K_207",
+        "image": "https://yourdomain.com/images/h.k/H_K_207.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_349",
+        "name": "H_K_349",
+        "image": "https://yourdomain.com/images/h.k/H_K_349.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_803",
+        "name": "H_K_803",
+        "image": "https://yourdomain.com/images/h.k/H_K_803.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_848",
+        "name": "H_K_848",
+        "image": "https://yourdomain.com/images/h.k/H_K_848.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_868",
+        "name": "H_K_868",
+        "image": "https://yourdomain.com/images/h.k/H_K_868.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_908",
+        "name": "H_K_908",
+        "image": "https://yourdomain.com/images/h.k/H_K_908.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_909",
+        "name": "H_K_909",
+        "image": "https://yourdomain.com/images/h.k/H_K_909.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_936",
+        "name": "H_K_936",
+        "image": "https://yourdomain.com/images/h.k/H_K_936.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_948",
+        "name": "H_K_948",
+        "image": "https://yourdomain.com/images/h.k/H_K_948.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_949",
+        "name": "H_K_949",
+        "image": "https://yourdomain.com/images/h.k/H_K_949.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_951",
+        "name": "H_K_951",
+        "image": "https://yourdomain.com/images/h.k/H_K_951.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_K_954",
+        "name": "H_K_954",
+        "image": "https://yourdomain.com/images/h.k/H_K_954.jpeg",
+        "stock": 0
+      }
+    ],
+    "H&M": [
+      {
+        "id": "H_M_111",
+        "name": "H_M_111",
+        "image": "https://yourdomain.com/images/h&m/H_M_111.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_334",
+        "name": "H_M_334",
+        "image": "https://yourdomain.com/images/h&m/H_M_334.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_336",
+        "name": "H_M_336",
+        "image": "https://yourdomain.com/images/h&m/H_M_336.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_723",
+        "name": "H_M_723",
+        "image": "https://yourdomain.com/images/h&m/H_M_723.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_724",
+        "name": "H_M_724",
+        "image": "https://yourdomain.com/images/h&m/H_M_724.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_726",
+        "name": "H_M_726",
+        "image": "https://yourdomain.com/images/h&m/H_M_726.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_727",
+        "name": "H_M_727",
+        "image": "https://yourdomain.com/images/h&m/H_M_727.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_728",
+        "name": "H_M_728",
+        "image": "https://yourdomain.com/images/h&m/H_M_728.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_731",
+        "name": "H_M_731",
+        "image": "https://yourdomain.com/images/h&m/H_M_731.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_861",
+        "name": "H_M_861",
+        "image": "https://yourdomain.com/images/h&m/H_M_861.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_862",
+        "name": "H_M_862",
+        "image": "https://yourdomain.com/images/h&m/H_M_862.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_878",
+        "name": "H_M_878",
+        "image": "https://yourdomain.com/images/h&m/H_M_878.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_883",
+        "name": "H_M_883",
+        "image": "https://yourdomain.com/images/h&m/H_M_883.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "H_M_930",
+        "name": "H_M_930",
+        "image": "https://yourdomain.com/images/h&m/H_M_930.jpeg",
+        "stock": 0
+      }
+    ],
+    "IRAQ": [
+      {
+        "id": "CENNES_758",
+        "name": "CENNES_758",
+        "image": "https://yourdomain.com/images/iraq/CENNES_758.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_784",
+        "name": "CENNES_784",
+        "image": "https://yourdomain.com/images/iraq/CENNES_784.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_785",
+        "name": "CENNES_785",
+        "image": "https://yourdomain.com/images/iraq/CENNES_785.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_790",
+        "name": "CENNES_790",
+        "image": "https://yourdomain.com/images/iraq/CENNES_790.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_847",
+        "name": "CENNES_847",
+        "image": "https://yourdomain.com/images/iraq/CENNES_847.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_939",
+        "name": "CENNES_939",
+        "image": "https://yourdomain.com/images/iraq/CENNES_939.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_945",
+        "name": "CENNES_945",
+        "image": "https://yourdomain.com/images/iraq/CENNES_945.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_1006",
+        "name": "CENNES_1006",
+        "image": "https://yourdomain.com/images/iraq/CENNES_1006.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_1007",
+        "name": "CENNES_1007",
+        "image": "https://yourdomain.com/images/iraq/CENNES_1007.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_1009",
+        "name": "CENNES_1009",
+        "image": "https://yourdomain.com/images/iraq/CENNES_1009.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_1010",
+        "name": "CENNES_1010",
+        "image": "https://yourdomain.com/images/iraq/CENNES_1010.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_1023",
+        "name": "CENNES_1023",
+        "image": "https://yourdomain.com/images/iraq/CENNES_1023.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_1026",
+        "name": "CENNES_1026",
+        "image": "https://yourdomain.com/images/iraq/CENNES_1026.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_1059",
+        "name": "CENNES_1059",
+        "image": "https://yourdomain.com/images/iraq/CENNES_1059.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_1089",
+        "name": "CENNES_1089",
+        "image": "https://yourdomain.com/images/iraq/CENNES_1089.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_1090",
+        "name": "CENNES_1090",
+        "image": "https://yourdomain.com/images/iraq/CENNES_1090.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_1150",
+        "name": "CENNES_1150",
+        "image": "https://yourdomain.com/images/iraq/CENNES_1150.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "CENNES_1151",
+        "name": "CENNES_1151",
+        "image": "https://yourdomain.com/images/iraq/CENNES_1151.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "IRAQ_01",
+        "name": "IRAQ_01",
+        "image": "https://yourdomain.com/images/iraq/IRAQ_01.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "IRAQ_05",
+        "name": "IRAQ_05",
+        "image": "https://yourdomain.com/images/iraq/IRAQ_05.jpeg",
+        "stock": 0
+      }
+    ],
+    "JORDAN": [
+      {
+        "id": "JORDAN_10",
+        "name": "JORDAN_10",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_10.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_11",
+        "name": "JORDAN_11",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_11.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_1160",
+        "name": "JORDAN_1160",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_1160.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_1161",
+        "name": "JORDAN_1161",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_1161.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_1162",
+        "name": "JORDAN_1162",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_1162.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_1163",
+        "name": "JORDAN_1163",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_1163.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_1164",
+        "name": "JORDAN_1164",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_1164.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_1165",
+        "name": "JORDAN_1165",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_1165.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_1166",
+        "name": "JORDAN_1166",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_1166.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_1167",
+        "name": "JORDAN_1167",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_1167.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_1168",
+        "name": "JORDAN_1168",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_1168.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_1169",
+        "name": "JORDAN_1169",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_1169.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_14291",
+        "name": "JORDAN_14291",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_14291.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_15247",
+        "name": "JORDAN_15247",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_15247.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_15274",
+        "name": "JORDAN_15274",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_15274.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_15396",
+        "name": "JORDAN_15396",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_15396.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_15499",
+        "name": "JORDAN_15499",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_15499.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_16411",
+        "name": "JORDAN_16411",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_16411.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "JORDAN_16412",
+        "name": "JORDAN_16412",
+        "image": "https://yourdomain.com/images/jordan/JORDAN_16412.jpeg",
+        "stock": 0
+      }
+    ],
+    "KINGDOM": [
+      {
+        "id": "KINGDOM_424",
+        "name": "KINGDOM_424",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_424.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_432",
+        "name": "KINGDOM_432",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_432.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_600",
+        "name": "KINGDOM_600",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_600.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_657",
+        "name": "KINGDOM_657",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_657.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_1154",
+        "name": "KINGDOM_1154",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_1154.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_1182",
+        "name": "KINGDOM_1182",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_1182.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_1183",
+        "name": "KINGDOM_1183",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_1183.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_1188",
+        "name": "KINGDOM_1188",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_1188.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_1189",
+        "name": "KINGDOM_1189",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_1189.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_1191",
+        "name": "KINGDOM_1191",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_1191.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_1192",
+        "name": "KINGDOM_1192",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_1192.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_1199",
+        "name": "KINGDOM_1199",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_1199.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KINGDOM_1200",
+        "name": "KINGDOM_1200",
+        "image": "https://yourdomain.com/images/kingdom/KINGDOM_1200.jpeg",
+        "stock": 0
+      }
+    ],
+    "KOSOVO": [
+      {
+        "id": "KOSOVO_03",
+        "name": "KOSOVO_03",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_03.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_07",
+        "name": "KOSOVO_07",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_07.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_12",
+        "name": "KOSOVO_12",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_12.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_450",
+        "name": "KOSOVO_450",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_450.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_511",
+        "name": "KOSOVO_511",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_511.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_512",
+        "name": "KOSOVO_512",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_512.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_513",
+        "name": "KOSOVO_513",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_513.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_514",
+        "name": "KOSOVO_514",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_514.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_545",
+        "name": "KOSOVO_545",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_545.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_566",
+        "name": "KOSOVO_566",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_566.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_567",
+        "name": "KOSOVO_567",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_567.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_576",
+        "name": "KOSOVO_576",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_576.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_599",
+        "name": "KOSOVO_599",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_599.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_816",
+        "name": "KOSOVO_816",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_816.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_895",
+        "name": "KOSOVO_895",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_895.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_1027",
+        "name": "KOSOVO_1027",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_1027.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_1031",
+        "name": "KOSOVO_1031",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_1031.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_1033",
+        "name": "KOSOVO_1033",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_1033.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_1050",
+        "name": "KOSOVO_1050",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_1050.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_1127",
+        "name": "KOSOVO_1127",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_1127.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_1129",
+        "name": "KOSOVO_1129",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_1129.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "KOSOVO_1177",
+        "name": "KOSOVO_1177",
+        "image": "https://yourdomain.com/images/kosovo/KOSOVO_1177.jpeg",
+        "stock": 0
+      }
+    ],
+    "LINZ": [
+      {
+        "id": "LINZ_412",
+        "name": "LINZ_412",
+        "image": "https://yourdomain.com/images/linz/LINZ_412.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_419",
+        "name": "LINZ_419",
+        "image": "https://yourdomain.com/images/linz/LINZ_419.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_485",
+        "name": "LINZ_485",
+        "image": "https://yourdomain.com/images/linz/LINZ_485.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_486",
+        "name": "LINZ_486",
+        "image": "https://yourdomain.com/images/linz/LINZ_486.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_487",
+        "name": "LINZ_487",
+        "image": "https://yourdomain.com/images/linz/LINZ_487.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_488",
+        "name": "LINZ_488",
+        "image": "https://yourdomain.com/images/linz/LINZ_488.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_632",
+        "name": "LINZ_632",
+        "image": "https://yourdomain.com/images/linz/LINZ_632.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_633",
+        "name": "LINZ_633",
+        "image": "https://yourdomain.com/images/linz/LINZ_633.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_658",
+        "name": "LINZ_658",
+        "image": "https://yourdomain.com/images/linz/LINZ_658.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_659",
+        "name": "LINZ_659",
+        "image": "https://yourdomain.com/images/linz/LINZ_659.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_660",
+        "name": "LINZ_660",
+        "image": "https://yourdomain.com/images/linz/LINZ_660.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_668",
+        "name": "LINZ_668",
+        "image": "https://yourdomain.com/images/linz/LINZ_668.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_713",
+        "name": "LINZ_713",
+        "image": "https://yourdomain.com/images/linz/LINZ_713.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_714",
+        "name": "LINZ_714",
+        "image": "https://yourdomain.com/images/linz/LINZ_714.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_715",
+        "name": "LINZ_715",
+        "image": "https://yourdomain.com/images/linz/LINZ_715.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_720",
+        "name": "LINZ_720",
+        "image": "https://yourdomain.com/images/linz/LINZ_720.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_765",
+        "name": "LINZ_765",
+        "image": "https://yourdomain.com/images/linz/LINZ_765.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ_781",
+        "name": "LINZ_781",
+        "image": "https://yourdomain.com/images/linz/LINZ_781.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ-02",
+        "name": "LINZ-02",
+        "image": "https://yourdomain.com/images/linz/LINZ-02.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ-19",
+        "name": "LINZ-19",
+        "image": "https://yourdomain.com/images/linz/LINZ-19.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ-20",
+        "name": "LINZ-20",
+        "image": "https://yourdomain.com/images/linz/LINZ-20.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ-22",
+        "name": "LINZ-22",
+        "image": "https://yourdomain.com/images/linz/LINZ-22.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ-23",
+        "name": "LINZ-23",
+        "image": "https://yourdomain.com/images/linz/LINZ-23.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ-24",
+        "name": "LINZ-24",
+        "image": "https://yourdomain.com/images/linz/LINZ-24.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LINZ-25",
+        "name": "LINZ-25",
+        "image": "https://yourdomain.com/images/linz/LINZ-25.jpeg",
+        "stock": 0
+      }
+    ],
+    "LISBON": [
+      {
+        "id": "LISBON_965",
+        "name": "LISBON_965",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_965.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_983",
+        "name": "LISBON_983",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_983.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_996",
+        "name": "LISBON_996",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_996.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_997",
+        "name": "LISBON_997",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_997.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_998",
+        "name": "LISBON_998",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_998.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_999",
+        "name": "LISBON_999",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_999.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_1000",
+        "name": "LISBON_1000",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_1000.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_1032",
+        "name": "LISBON_1032",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_1032.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_1092",
+        "name": "LISBON_1092",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_1092.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_1093",
+        "name": "LISBON_1093",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_1093.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_1094",
+        "name": "LISBON_1094",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_1094.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_1095",
+        "name": "LISBON_1095",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_1095.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_1100",
+        "name": "LISBON_1100",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_1100.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_1102",
+        "name": "LISBON_1102",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_1102.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_1103",
+        "name": "LISBON_1103",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_1103.jpg",
+        "stock": 0
+      },
+      {
+        "id": "LISBON_1104",
+        "name": "LISBON_1104",
+        "image": "https://yourdomain.com/images/lisbon/LISBON_1104.jpg",
+        "stock": 0
+      }
+    ],
+    "LUX": [
+      {
+        "id": "LUX_07",
+        "name": "LUX_07",
+        "image": "https://yourdomain.com/images/lux/LUX_07.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_143",
+        "name": "LUX_143",
+        "image": "https://yourdomain.com/images/lux/LUX_143.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_145",
+        "name": "LUX_145",
+        "image": "https://yourdomain.com/images/lux/LUX_145.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_187",
+        "name": "LUX_187",
+        "image": "https://yourdomain.com/images/lux/LUX_187.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_188",
+        "name": "LUX_188",
+        "image": "https://yourdomain.com/images/lux/LUX_188.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_190",
+        "name": "LUX_190",
+        "image": "https://yourdomain.com/images/lux/LUX_190.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_191",
+        "name": "LUX_191",
+        "image": "https://yourdomain.com/images/lux/LUX_191.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_192",
+        "name": "LUX_192",
+        "image": "https://yourdomain.com/images/lux/LUX_192.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_294",
+        "name": "LUX_294",
+        "image": "https://yourdomain.com/images/lux/LUX_294.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_331",
+        "name": "LUX_331",
+        "image": "https://yourdomain.com/images/lux/LUX_331.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_403",
+        "name": "LUX_403",
+        "image": "https://yourdomain.com/images/lux/LUX_403.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_473",
+        "name": "LUX_473",
+        "image": "https://yourdomain.com/images/lux/LUX_473.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_780",
+        "name": "LUX_780",
+        "image": "https://yourdomain.com/images/lux/LUX_780.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_797",
+        "name": "LUX_797",
+        "image": "https://yourdomain.com/images/lux/LUX_797.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_884",
+        "name": "LUX_884",
+        "image": "https://yourdomain.com/images/lux/LUX_884.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_887",
+        "name": "LUX_887",
+        "image": "https://yourdomain.com/images/lux/LUX_887.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_923",
+        "name": "LUX_923",
+        "image": "https://yourdomain.com/images/lux/LUX_923.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_924",
+        "name": "LUX_924",
+        "image": "https://yourdomain.com/images/lux/LUX_924.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_926",
+        "name": "LUX_926",
+        "image": "https://yourdomain.com/images/lux/LUX_926.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_1072",
+        "name": "LUX_1072",
+        "image": "https://yourdomain.com/images/lux/LUX_1072.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_1098",
+        "name": "LUX_1098",
+        "image": "https://yourdomain.com/images/lux/LUX_1098.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_1099",
+        "name": "LUX_1099",
+        "image": "https://yourdomain.com/images/lux/LUX_1099.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_1108",
+        "name": "LUX_1108",
+        "image": "https://yourdomain.com/images/lux/LUX_1108.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_1132",
+        "name": "LUX_1132",
+        "image": "https://yourdomain.com/images/lux/LUX_1132.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_1133",
+        "name": "LUX_1133",
+        "image": "https://yourdomain.com/images/lux/LUX_1133.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_1134",
+        "name": "LUX_1134",
+        "image": "https://yourdomain.com/images/lux/LUX_1134.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_15437",
+        "name": "LUX_15437",
+        "image": "https://yourdomain.com/images/lux/LUX_15437.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "LUX_15744",
+        "name": "LUX_15744",
+        "image": "https://yourdomain.com/images/lux/LUX_15744.jpeg",
+        "stock": 0
+      }
+    ],
+    "MARINA": [
+      {
+        "id": "MARINA_18",
+        "name": "MARINA_18",
+        "image": "https://yourdomain.com/images/marina/MARINA_18.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_20",
+        "name": "MARINA_20",
+        "image": "https://yourdomain.com/images/marina/MARINA_20.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_50",
+        "name": "MARINA_50",
+        "image": "https://yourdomain.com/images/marina/MARINA_50.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_073",
+        "name": "MARINA_073",
+        "image": "https://yourdomain.com/images/marina/MARINA_073.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_097",
+        "name": "MARINA_097",
+        "image": "https://yourdomain.com/images/marina/MARINA_097.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_098",
+        "name": "MARINA_098",
+        "image": "https://yourdomain.com/images/marina/MARINA_098.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_099",
+        "name": "MARINA_099",
+        "image": "https://yourdomain.com/images/marina/MARINA_099.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_100",
+        "name": "MARINA_100",
+        "image": "https://yourdomain.com/images/marina/MARINA_100.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_102",
+        "name": "MARINA_102",
+        "image": "https://yourdomain.com/images/marina/MARINA_102.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_130",
+        "name": "MARINA_130",
+        "image": "https://yourdomain.com/images/marina/MARINA_130.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_146",
+        "name": "MARINA_146",
+        "image": "https://yourdomain.com/images/marina/MARINA_146.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_147",
+        "name": "MARINA_147",
+        "image": "https://yourdomain.com/images/marina/MARINA_147.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_148",
+        "name": "MARINA_148",
+        "image": "https://yourdomain.com/images/marina/MARINA_148.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_150",
+        "name": "MARINA_150",
+        "image": "https://yourdomain.com/images/marina/MARINA_150.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_152",
+        "name": "MARINA_152",
+        "image": "https://yourdomain.com/images/marina/MARINA_152.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_158",
+        "name": "MARINA_158",
+        "image": "https://yourdomain.com/images/marina/MARINA_158.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_193",
+        "name": "MARINA_193",
+        "image": "https://yourdomain.com/images/marina/MARINA_193.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_194",
+        "name": "MARINA_194",
+        "image": "https://yourdomain.com/images/marina/MARINA_194.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_195",
+        "name": "MARINA_195",
+        "image": "https://yourdomain.com/images/marina/MARINA_195.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_198",
+        "name": "MARINA_198",
+        "image": "https://yourdomain.com/images/marina/MARINA_198.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_202",
+        "name": "MARINA_202",
+        "image": "https://yourdomain.com/images/marina/MARINA_202.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_203",
+        "name": "MARINA_203",
+        "image": "https://yourdomain.com/images/marina/MARINA_203.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_212",
+        "name": "MARINA_212",
+        "image": "https://yourdomain.com/images/marina/MARINA_212.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_231",
+        "name": "MARINA_231",
+        "image": "https://yourdomain.com/images/marina/MARINA_231.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_232",
+        "name": "MARINA_232",
+        "image": "https://yourdomain.com/images/marina/MARINA_232.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_236",
+        "name": "MARINA_236",
+        "image": "https://yourdomain.com/images/marina/MARINA_236.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_252",
+        "name": "MARINA_252",
+        "image": "https://yourdomain.com/images/marina/MARINA_252.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_263",
+        "name": "MARINA_263",
+        "image": "https://yourdomain.com/images/marina/MARINA_263.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_281",
+        "name": "MARINA_281",
+        "image": "https://yourdomain.com/images/marina/MARINA_281.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_282",
+        "name": "MARINA_282",
+        "image": "https://yourdomain.com/images/marina/MARINA_282.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_283",
+        "name": "MARINA_283",
+        "image": "https://yourdomain.com/images/marina/MARINA_283.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_287",
+        "name": "MARINA_287",
+        "image": "https://yourdomain.com/images/marina/MARINA_287.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_288",
+        "name": "MARINA_288",
+        "image": "https://yourdomain.com/images/marina/MARINA_288.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_293",
+        "name": "MARINA_293",
+        "image": "https://yourdomain.com/images/marina/MARINA_293.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_296",
+        "name": "MARINA_296",
+        "image": "https://yourdomain.com/images/marina/MARINA_296.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_297",
+        "name": "MARINA_297",
+        "image": "https://yourdomain.com/images/marina/MARINA_297.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_328",
+        "name": "MARINA_328",
+        "image": "https://yourdomain.com/images/marina/MARINA_328.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_330",
+        "name": "MARINA_330",
+        "image": "https://yourdomain.com/images/marina/MARINA_330.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_387",
+        "name": "MARINA_387",
+        "image": "https://yourdomain.com/images/marina/MARINA_387.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_414",
+        "name": "MARINA_414",
+        "image": "https://yourdomain.com/images/marina/MARINA_414.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_415",
+        "name": "MARINA_415",
+        "image": "https://yourdomain.com/images/marina/MARINA_415.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_417",
+        "name": "MARINA_417",
+        "image": "https://yourdomain.com/images/marina/MARINA_417.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_426",
+        "name": "MARINA_426",
+        "image": "https://yourdomain.com/images/marina/MARINA_426.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_456",
+        "name": "MARINA_456",
+        "image": "https://yourdomain.com/images/marina/MARINA_456.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_497",
+        "name": "MARINA_497",
+        "image": "https://yourdomain.com/images/marina/MARINA_497.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_547",
+        "name": "MARINA_547",
+        "image": "https://yourdomain.com/images/marina/MARINA_547.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_669",
+        "name": "MARINA_669",
+        "image": "https://yourdomain.com/images/marina/MARINA_669.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_775",
+        "name": "MARINA_775",
+        "image": "https://yourdomain.com/images/marina/MARINA_775.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_807",
+        "name": "MARINA_807",
+        "image": "https://yourdomain.com/images/marina/MARINA_807.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_808",
+        "name": "MARINA_808",
+        "image": "https://yourdomain.com/images/marina/MARINA_808.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_820",
+        "name": "MARINA_820",
+        "image": "https://yourdomain.com/images/marina/MARINA_820.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_840",
+        "name": "MARINA_840",
+        "image": "https://yourdomain.com/images/marina/MARINA_840.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_1043",
+        "name": "MARINA_1043",
+        "image": "https://yourdomain.com/images/marina/MARINA_1043.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_1045",
+        "name": "MARINA_1045",
+        "image": "https://yourdomain.com/images/marina/MARINA_1045.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_1051",
+        "name": "MARINA_1051",
+        "image": "https://yourdomain.com/images/marina/MARINA_1051.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_1505",
+        "name": "MARINA_1505",
+        "image": "https://yourdomain.com/images/marina/MARINA_1505.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_1634",
+        "name": "MARINA_1634",
+        "image": "https://yourdomain.com/images/marina/MARINA_1634.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_16108",
+        "name": "MARINA_16108",
+        "image": "https://yourdomain.com/images/marina/MARINA_16108.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_16350",
+        "name": "MARINA_16350",
+        "image": "https://yourdomain.com/images/marina/MARINA_16350.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MARINA_16421",
+        "name": "MARINA_16421",
+        "image": "https://yourdomain.com/images/marina/MARINA_16421.jpeg",
+        "stock": 0
+      }
+    ],
+    "MEGNUM": [
+      {
+        "id": "MEGNUM_21",
+        "name": "MEGNUM_21",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_21.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_22",
+        "name": "MEGNUM_22",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_22.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_24",
+        "name": "MEGNUM_24",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_24.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_25",
+        "name": "MEGNUM_25",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_25.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_322",
+        "name": "MEGNUM_322",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_322.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_520",
+        "name": "MEGNUM_520",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_520.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_736",
+        "name": "MEGNUM_736",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_736.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_750",
+        "name": "MEGNUM_750",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_750.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_751",
+        "name": "MEGNUM_751",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_751.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_752",
+        "name": "MEGNUM_752",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_752.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_821",
+        "name": "MEGNUM_821",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_821.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_822",
+        "name": "MEGNUM_822",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_822.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_823",
+        "name": "MEGNUM_823",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_823.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_916",
+        "name": "MEGNUM_916",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_916.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_917",
+        "name": "MEGNUM_917",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_917.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_919",
+        "name": "MEGNUM_919",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_919.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_927",
+        "name": "MEGNUM_927",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_927.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_928",
+        "name": "MEGNUM_928",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_928.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_1034",
+        "name": "MEGNUM_1034",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_1034.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_1035",
+        "name": "MEGNUM_1035",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_1035.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_1036",
+        "name": "MEGNUM_1036",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_1036.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_1046",
+        "name": "MEGNUM_1046",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_1046.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_1047",
+        "name": "MEGNUM_1047",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_1047.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_1048",
+        "name": "MEGNUM_1048",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_1048.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MEGNUM_1049",
+        "name": "MEGNUM_1049",
+        "image": "https://yourdomain.com/images/megnum/MEGNUM_1049.jpeg",
+        "stock": 0
+      }
+    ],
+    "MOROCCO": [
+      {
+        "id": "MOROCCO_1062",
+        "name": "MOROCCO_1062",
+        "image": "https://yourdomain.com/images/morocco/MOROCCO_1062.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOROCCO_1064",
+        "name": "MOROCCO_1064",
+        "image": "https://yourdomain.com/images/morocco/MOROCCO_1064.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOROCCO_1066",
+        "name": "MOROCCO_1066",
+        "image": "https://yourdomain.com/images/morocco/MOROCCO_1066.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOROCCO_1096",
+        "name": "MOROCCO_1096",
+        "image": "https://yourdomain.com/images/morocco/MOROCCO_1096.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOROCCO_1097",
+        "name": "MOROCCO_1097",
+        "image": "https://yourdomain.com/images/morocco/MOROCCO_1097.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOROCCO_8303",
+        "name": "MOROCCO_8303",
+        "image": "https://yourdomain.com/images/morocco/MOROCCO_8303.jpeg",
+        "stock": 0
+      }
+    ],
+    "MOSSIMMO": [
+      {
+        "id": "MOSSIMMO_104",
+        "name": "MOSSIMMO_104",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_104.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_105",
+        "name": "MOSSIMMO_105",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_105.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_107",
+        "name": "MOSSIMMO_107",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_107.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_108",
+        "name": "MOSSIMMO_108",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_108.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_348",
+        "name": "MOSSIMMO_348",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_348.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_394",
+        "name": "MOSSIMMO_394",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_394.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_395",
+        "name": "MOSSIMMO_395",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_395.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_436",
+        "name": "MOSSIMMO_436",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_436.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_489",
+        "name": "MOSSIMMO_489",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_489.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_670",
+        "name": "MOSSIMMO_670",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_670.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_671",
+        "name": "MOSSIMMO_671",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_671.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_691",
+        "name": "MOSSIMMO_691",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_691.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_725",
+        "name": "MOSSIMMO_725",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_725.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_730",
+        "name": "MOSSIMMO_730",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_730.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_753",
+        "name": "MOSSIMMO_753",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_753.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_783",
+        "name": "MOSSIMMO_783",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_783.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "MOSSIMMO_792",
+        "name": "MOSSIMMO_792",
+        "image": "https://yourdomain.com/images/mossimmo/MOSSIMMO_792.jpeg",
+        "stock": 0
+      }
+    ],
+    "NEW YORK": [
+      {
+        "id": "NEW_YORK_2112",
+        "name": "NEW_YORK_2112",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2112.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2124",
+        "name": "NEW_YORK_2124",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2124.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2142",
+        "name": "NEW_YORK_2142",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2142.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2145",
+        "name": "NEW_YORK_2145",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2145.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2146",
+        "name": "NEW_YORK_2146",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2146.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2152",
+        "name": "NEW_YORK_2152",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2152.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2153",
+        "name": "NEW_YORK_2153",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2153.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2161",
+        "name": "NEW_YORK_2161",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2161.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2166",
+        "name": "NEW_YORK_2166",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2166.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2174",
+        "name": "NEW_YORK_2174",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2174.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2186",
+        "name": "NEW_YORK_2186",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2186.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2188",
+        "name": "NEW_YORK_2188",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2188.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2189",
+        "name": "NEW_YORK_2189",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2189.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2193",
+        "name": "NEW_YORK_2193",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2193.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2194",
+        "name": "NEW_YORK_2194",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2194.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2195",
+        "name": "NEW_YORK_2195",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2195.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2196",
+        "name": "NEW_YORK_2196",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2196.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2197",
+        "name": "NEW_YORK_2197",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2197.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2198",
+        "name": "NEW_YORK_2198",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2198.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2199",
+        "name": "NEW_YORK_2199",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2199.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2200",
+        "name": "NEW_YORK_2200",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2200.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2203",
+        "name": "NEW_YORK_2203",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2203.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2206",
+        "name": "NEW_YORK_2206",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2206.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2209",
+        "name": "NEW_YORK_2209",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2209.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2212",
+        "name": "NEW_YORK_2212",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2212.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2213",
+        "name": "NEW_YORK_2213",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2213.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2214",
+        "name": "NEW_YORK_2214",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2214.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2215",
+        "name": "NEW_YORK_2215",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2215.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2216",
+        "name": "NEW_YORK_2216",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2216.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2217",
+        "name": "NEW_YORK_2217",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2217.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2218",
+        "name": "NEW_YORK_2218",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2218.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NEW_YORK_2219",
+        "name": "NEW_YORK_2219",
+        "image": "https://yourdomain.com/images/new york/NEW_YORK_2219.jpeg",
+        "stock": 0
+      }
+    ],
+    "NORWAY": [
+      {
+        "id": "NORWAY_4",
+        "name": "NORWAY_4",
+        "image": "https://yourdomain.com/images/norway/NORWAY_4.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_05",
+        "name": "NORWAY_05",
+        "image": "https://yourdomain.com/images/norway/NORWAY_05.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_7",
+        "name": "NORWAY_7",
+        "image": "https://yourdomain.com/images/norway/NORWAY_7.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_70",
+        "name": "NORWAY_70",
+        "image": "https://yourdomain.com/images/norway/NORWAY_70.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_71",
+        "name": "NORWAY_71",
+        "image": "https://yourdomain.com/images/norway/NORWAY_71.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_72",
+        "name": "NORWAY_72",
+        "image": "https://yourdomain.com/images/norway/NORWAY_72.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_73",
+        "name": "NORWAY_73",
+        "image": "https://yourdomain.com/images/norway/NORWAY_73.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_74",
+        "name": "NORWAY_74",
+        "image": "https://yourdomain.com/images/norway/NORWAY_74.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_75",
+        "name": "NORWAY_75",
+        "image": "https://yourdomain.com/images/norway/NORWAY_75.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_76",
+        "name": "NORWAY_76",
+        "image": "https://yourdomain.com/images/norway/NORWAY_76.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_77",
+        "name": "NORWAY_77",
+        "image": "https://yourdomain.com/images/norway/NORWAY_77.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_78",
+        "name": "NORWAY_78",
+        "image": "https://yourdomain.com/images/norway/NORWAY_78.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_79",
+        "name": "NORWAY_79",
+        "image": "https://yourdomain.com/images/norway/NORWAY_79.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_80",
+        "name": "NORWAY_80",
+        "image": "https://yourdomain.com/images/norway/NORWAY_80.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_81",
+        "name": "NORWAY_81",
+        "image": "https://yourdomain.com/images/norway/NORWAY_81.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_82",
+        "name": "NORWAY_82",
+        "image": "https://yourdomain.com/images/norway/NORWAY_82.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_83",
+        "name": "NORWAY_83",
+        "image": "https://yourdomain.com/images/norway/NORWAY_83.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_85",
+        "name": "NORWAY_85",
+        "image": "https://yourdomain.com/images/norway/NORWAY_85.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_88",
+        "name": "NORWAY_88",
+        "image": "https://yourdomain.com/images/norway/NORWAY_88.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_138",
+        "name": "NORWAY_138",
+        "image": "https://yourdomain.com/images/norway/NORWAY_138.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_139",
+        "name": "NORWAY_139",
+        "image": "https://yourdomain.com/images/norway/NORWAY_139.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_140",
+        "name": "NORWAY_140",
+        "image": "https://yourdomain.com/images/norway/NORWAY_140.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_141",
+        "name": "NORWAY_141",
+        "image": "https://yourdomain.com/images/norway/NORWAY_141.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_142",
+        "name": "NORWAY_142",
+        "image": "https://yourdomain.com/images/norway/NORWAY_142.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_143",
+        "name": "NORWAY_143",
+        "image": "https://yourdomain.com/images/norway/NORWAY_143.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_144",
+        "name": "NORWAY_144",
+        "image": "https://yourdomain.com/images/norway/NORWAY_144.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_145",
+        "name": "NORWAY_145",
+        "image": "https://yourdomain.com/images/norway/NORWAY_145.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_146",
+        "name": "NORWAY_146",
+        "image": "https://yourdomain.com/images/norway/NORWAY_146.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_147",
+        "name": "NORWAY_147",
+        "image": "https://yourdomain.com/images/norway/NORWAY_147.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_148",
+        "name": "NORWAY_148",
+        "image": "https://yourdomain.com/images/norway/NORWAY_148.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "NORWAY_149",
+        "name": "NORWAY_149",
+        "image": "https://yourdomain.com/images/norway/NORWAY_149.jpeg",
+        "stock": 0
+      }
+    ],
+    "OMRE": [
+      {
+        "id": "OMRE_04",
+        "name": "OMRE_04",
+        "image": "https://yourdomain.com/images/omre/OMRE_04.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "OMRE_39",
+        "name": "OMRE_39",
+        "image": "https://yourdomain.com/images/omre/OMRE_39.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "OMRE_40",
+        "name": "OMRE_40",
+        "image": "https://yourdomain.com/images/omre/OMRE_40.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "OMRE_41",
+        "name": "OMRE_41",
+        "image": "https://yourdomain.com/images/omre/OMRE_41.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "OMRE_44",
+        "name": "OMRE_44",
+        "image": "https://yourdomain.com/images/omre/OMRE_44.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "OMRE_46",
+        "name": "OMRE_46",
+        "image": "https://yourdomain.com/images/omre/OMRE_46.jpeg",
+        "stock": 0
+      }
+    ],
+    "PARIS": [
+      {
+        "id": "PARIS_127",
+        "name": "PARIS_127",
+        "image": "https://yourdomain.com/images/paris/PARIS_127.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PARIS_128",
+        "name": "PARIS_128",
+        "image": "https://yourdomain.com/images/paris/PARIS_128.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PARIS_129",
+        "name": "PARIS_129",
+        "image": "https://yourdomain.com/images/paris/PARIS_129.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PARIS_130",
+        "name": "PARIS_130",
+        "image": "https://yourdomain.com/images/paris/PARIS_130.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PARIS_131",
+        "name": "PARIS_131",
+        "image": "https://yourdomain.com/images/paris/PARIS_131.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PARIS_132",
+        "name": "PARIS_132",
+        "image": "https://yourdomain.com/images/paris/PARIS_132.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PARIS_133",
+        "name": "PARIS_133",
+        "image": "https://yourdomain.com/images/paris/PARIS_133.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PARIS_135",
+        "name": "PARIS_135",
+        "image": "https://yourdomain.com/images/paris/PARIS_135.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PARIS_136",
+        "name": "PARIS_136",
+        "image": "https://yourdomain.com/images/paris/PARIS_136.jpeg",
+        "stock": 0
+      }
+    ],
+    "PATARA": [
+      {
+        "id": "PATARA_08",
+        "name": "PATARA_08",
+        "image": "https://yourdomain.com/images/patara/PATARA_08.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_20",
+        "name": "PATARA_20",
+        "image": "https://yourdomain.com/images/patara/PATARA_20.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_378",
+        "name": "PATARA_378",
+        "image": "https://yourdomain.com/images/patara/PATARA_378.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_721",
+        "name": "PATARA_721",
+        "image": "https://yourdomain.com/images/patara/PATARA_721.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_729",
+        "name": "PATARA_729",
+        "image": "https://yourdomain.com/images/patara/PATARA_729.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_756",
+        "name": "PATARA_756",
+        "image": "https://yourdomain.com/images/patara/PATARA_756.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_764",
+        "name": "PATARA_764",
+        "image": "https://yourdomain.com/images/patara/PATARA_764.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_767",
+        "name": "PATARA_767",
+        "image": "https://yourdomain.com/images/patara/PATARA_767.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_844",
+        "name": "PATARA_844",
+        "image": "https://yourdomain.com/images/patara/PATARA_844.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_849",
+        "name": "PATARA_849",
+        "image": "https://yourdomain.com/images/patara/PATARA_849.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_850",
+        "name": "PATARA_850",
+        "image": "https://yourdomain.com/images/patara/PATARA_850.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_937",
+        "name": "PATARA_937",
+        "image": "https://yourdomain.com/images/patara/PATARA_937.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_941",
+        "name": "PATARA_941",
+        "image": "https://yourdomain.com/images/patara/PATARA_941.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_942",
+        "name": "PATARA_942",
+        "image": "https://yourdomain.com/images/patara/PATARA_942.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_943",
+        "name": "PATARA_943",
+        "image": "https://yourdomain.com/images/patara/PATARA_943.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_944",
+        "name": "PATARA_944",
+        "image": "https://yourdomain.com/images/patara/PATARA_944.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_1107",
+        "name": "PATARA_1107",
+        "image": "https://yourdomain.com/images/patara/PATARA_1107.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_1215",
+        "name": "PATARA_1215",
+        "image": "https://yourdomain.com/images/patara/PATARA_1215.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_1216",
+        "name": "PATARA_1216",
+        "image": "https://yourdomain.com/images/patara/PATARA_1216.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_1217",
+        "name": "PATARA_1217",
+        "image": "https://yourdomain.com/images/patara/PATARA_1217.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "PATARA_1218",
+        "name": "PATARA_1218",
+        "image": "https://yourdomain.com/images/patara/PATARA_1218.jpeg",
+        "stock": 0
+      }
+    ],
+    "POLAND": [
+      {
+        "id": "POLAND_20",
+        "name": "POLAND_20",
+        "image": "https://yourdomain.com/images/poland/POLAND_20.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_216",
+        "name": "POLAND_216",
+        "image": "https://yourdomain.com/images/poland/POLAND_216.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_262",
+        "name": "POLAND_262",
+        "image": "https://yourdomain.com/images/poland/POLAND_262.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_494",
+        "name": "POLAND_494",
+        "image": "https://yourdomain.com/images/poland/POLAND_494.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_521",
+        "name": "POLAND_521",
+        "image": "https://yourdomain.com/images/poland/POLAND_521.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_603",
+        "name": "POLAND_603",
+        "image": "https://yourdomain.com/images/poland/POLAND_603.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_618",
+        "name": "POLAND_618",
+        "image": "https://yourdomain.com/images/poland/POLAND_618.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_619",
+        "name": "POLAND_619",
+        "image": "https://yourdomain.com/images/poland/POLAND_619.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_621",
+        "name": "POLAND_621",
+        "image": "https://yourdomain.com/images/poland/POLAND_621.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_654",
+        "name": "POLAND_654",
+        "image": "https://yourdomain.com/images/poland/POLAND_654.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_686",
+        "name": "POLAND_686",
+        "image": "https://yourdomain.com/images/poland/POLAND_686.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_693",
+        "name": "POLAND_693",
+        "image": "https://yourdomain.com/images/poland/POLAND_693.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_694",
+        "name": "POLAND_694",
+        "image": "https://yourdomain.com/images/poland/POLAND_694.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_695",
+        "name": "POLAND_695",
+        "image": "https://yourdomain.com/images/poland/POLAND_695.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_696",
+        "name": "POLAND_696",
+        "image": "https://yourdomain.com/images/poland/POLAND_696.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_747",
+        "name": "POLAND_747",
+        "image": "https://yourdomain.com/images/poland/POLAND_747.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1147",
+        "name": "POLAND_1147",
+        "image": "https://yourdomain.com/images/poland/POLAND_1147.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1181",
+        "name": "POLAND_1181",
+        "image": "https://yourdomain.com/images/poland/POLAND_1181.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1187",
+        "name": "POLAND_1187",
+        "image": "https://yourdomain.com/images/poland/POLAND_1187.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1190",
+        "name": "POLAND_1190",
+        "image": "https://yourdomain.com/images/poland/POLAND_1190.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1203",
+        "name": "POLAND_1203",
+        "image": "https://yourdomain.com/images/poland/POLAND_1203.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1204",
+        "name": "POLAND_1204",
+        "image": "https://yourdomain.com/images/poland/POLAND_1204.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1205",
+        "name": "POLAND_1205",
+        "image": "https://yourdomain.com/images/poland/POLAND_1205.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1206",
+        "name": "POLAND_1206",
+        "image": "https://yourdomain.com/images/poland/POLAND_1206.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1207",
+        "name": "POLAND_1207",
+        "image": "https://yourdomain.com/images/poland/POLAND_1207.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1208",
+        "name": "POLAND_1208",
+        "image": "https://yourdomain.com/images/poland/POLAND_1208.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1209",
+        "name": "POLAND_1209",
+        "image": "https://yourdomain.com/images/poland/POLAND_1209.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1210",
+        "name": "POLAND_1210",
+        "image": "https://yourdomain.com/images/poland/POLAND_1210.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1211",
+        "name": "POLAND_1211",
+        "image": "https://yourdomain.com/images/poland/POLAND_1211.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1219",
+        "name": "POLAND_1219",
+        "image": "https://yourdomain.com/images/poland/POLAND_1219.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "POLAND_1229",
+        "name": "POLAND_1229",
+        "image": "https://yourdomain.com/images/poland/POLAND_1229.jpeg",
+        "stock": 0
+      }
+    ],
+    "RUSSIA": [
+      {
+        "id": "RUSSIA_483",
+        "name": "RUSSIA_483",
+        "image": "https://yourdomain.com/images/russia/RUSSIA_483.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "RUSSIA_546",
+        "name": "RUSSIA_546",
+        "image": "https://yourdomain.com/images/russia/RUSSIA_546.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "RUSSIA_1223",
+        "name": "RUSSIA_1223",
+        "image": "https://yourdomain.com/images/russia/RUSSIA_1223.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "RUSSIA_1231",
+        "name": "RUSSIA_1231",
+        "image": "https://yourdomain.com/images/russia/RUSSIA_1231.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "RUSSIA_1232",
+        "name": "RUSSIA_1232",
+        "image": "https://yourdomain.com/images/russia/RUSSIA_1232.jpeg",
+        "stock": 0
+      }
+    ],
+    "SANTA": [
+      {
+        "id": "SANTA_15",
+        "name": "SANTA_15",
+        "image": "https://yourdomain.com/images/santa/SANTA_15.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_113",
+        "name": "SANTA_113",
+        "image": "https://yourdomain.com/images/santa/SANTA_113.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_114",
+        "name": "SANTA_114",
+        "image": "https://yourdomain.com/images/santa/SANTA_114.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_115",
+        "name": "SANTA_115",
+        "image": "https://yourdomain.com/images/santa/SANTA_115.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_117",
+        "name": "SANTA_117",
+        "image": "https://yourdomain.com/images/santa/SANTA_117.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_118",
+        "name": "SANTA_118",
+        "image": "https://yourdomain.com/images/santa/SANTA_118.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_120",
+        "name": "SANTA_120",
+        "image": "https://yourdomain.com/images/santa/SANTA_120.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_253",
+        "name": "SANTA_253",
+        "image": "https://yourdomain.com/images/santa/SANTA_253.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_298",
+        "name": "SANTA_298",
+        "image": "https://yourdomain.com/images/santa/SANTA_298.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_299",
+        "name": "SANTA_299",
+        "image": "https://yourdomain.com/images/santa/SANTA_299.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_300",
+        "name": "SANTA_300",
+        "image": "https://yourdomain.com/images/santa/SANTA_300.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_301",
+        "name": "SANTA_301",
+        "image": "https://yourdomain.com/images/santa/SANTA_301.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_302",
+        "name": "SANTA_302",
+        "image": "https://yourdomain.com/images/santa/SANTA_302.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_368",
+        "name": "SANTA_368",
+        "image": "https://yourdomain.com/images/santa/SANTA_368.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_475",
+        "name": "SANTA_475",
+        "image": "https://yourdomain.com/images/santa/SANTA_475.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_476",
+        "name": "SANTA_476",
+        "image": "https://yourdomain.com/images/santa/SANTA_476.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_477",
+        "name": "SANTA_477",
+        "image": "https://yourdomain.com/images/santa/SANTA_477.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_478",
+        "name": "SANTA_478",
+        "image": "https://yourdomain.com/images/santa/SANTA_478.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_479",
+        "name": "SANTA_479",
+        "image": "https://yourdomain.com/images/santa/SANTA_479.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_480",
+        "name": "SANTA_480",
+        "image": "https://yourdomain.com/images/santa/SANTA_480.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_481",
+        "name": "SANTA_481",
+        "image": "https://yourdomain.com/images/santa/SANTA_481.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_482",
+        "name": "SANTA_482",
+        "image": "https://yourdomain.com/images/santa/SANTA_482.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_504",
+        "name": "SANTA_504",
+        "image": "https://yourdomain.com/images/santa/SANTA_504.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_505",
+        "name": "SANTA_505",
+        "image": "https://yourdomain.com/images/santa/SANTA_505.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_506",
+        "name": "SANTA_506",
+        "image": "https://yourdomain.com/images/santa/SANTA_506.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_507",
+        "name": "SANTA_507",
+        "image": "https://yourdomain.com/images/santa/SANTA_507.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_508",
+        "name": "SANTA_508",
+        "image": "https://yourdomain.com/images/santa/SANTA_508.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_509",
+        "name": "SANTA_509",
+        "image": "https://yourdomain.com/images/santa/SANTA_509.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_15795",
+        "name": "SANTA_15795",
+        "image": "https://yourdomain.com/images/santa/SANTA_15795.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_15824",
+        "name": "SANTA_15824",
+        "image": "https://yourdomain.com/images/santa/SANTA_15824.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_15826",
+        "name": "SANTA_15826",
+        "image": "https://yourdomain.com/images/santa/SANTA_15826.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_15913",
+        "name": "SANTA_15913",
+        "image": "https://yourdomain.com/images/santa/SANTA_15913.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_15938",
+        "name": "SANTA_15938",
+        "image": "https://yourdomain.com/images/santa/SANTA_15938.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_16061",
+        "name": "SANTA_16061",
+        "image": "https://yourdomain.com/images/santa/SANTA_16061.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_16063",
+        "name": "SANTA_16063",
+        "image": "https://yourdomain.com/images/santa/SANTA_16063.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "SANTA_16151",
+        "name": "SANTA_16151",
+        "image": "https://yourdomain.com/images/santa/SANTA_16151.jpeg",
+        "stock": 0
+      }
+    ],
+    "TISSOT": [
+      {
+        "id": "TISSOT_95",
+        "name": "TISSOT_95",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_95.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_101",
+        "name": "TISSOT_101",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_101.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_103",
+        "name": "TISSOT_103",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_103.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_104",
+        "name": "TISSOT_104",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_104.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_105",
+        "name": "TISSOT_105",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_105.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_106",
+        "name": "TISSOT_106",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_106.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_107",
+        "name": "TISSOT_107",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_107.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_108",
+        "name": "TISSOT_108",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_108.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_109",
+        "name": "TISSOT_109",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_109.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_110",
+        "name": "TISSOT_110",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_110.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_112",
+        "name": "TISSOT_112",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_112.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_115",
+        "name": "TISSOT_115",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_115.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_116",
+        "name": "TISSOT_116",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_116.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_117",
+        "name": "TISSOT_117",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_117.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_118",
+        "name": "TISSOT_118",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_118.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_120",
+        "name": "TISSOT_120",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_120.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "TISSOT_123",
+        "name": "TISSOT_123",
+        "image": "https://yourdomain.com/images/tissot/TISSOT_123.jpeg",
+        "stock": 0
+      }
+    ],
+    "UCB": [
+      {
+        "id": "UCB_173",
+        "name": "UCB_173",
+        "image": "https://yourdomain.com/images/ucb/UCB_173.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_213",
+        "name": "UCB_213",
+        "image": "https://yourdomain.com/images/ucb/UCB_213.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_214",
+        "name": "UCB_214",
+        "image": "https://yourdomain.com/images/ucb/UCB_214.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_257",
+        "name": "UCB_257",
+        "image": "https://yourdomain.com/images/ucb/UCB_257.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_259",
+        "name": "UCB_259",
+        "image": "https://yourdomain.com/images/ucb/UCB_259.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_260",
+        "name": "UCB_260",
+        "image": "https://yourdomain.com/images/ucb/UCB_260.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_793",
+        "name": "UCB_793",
+        "image": "https://yourdomain.com/images/ucb/UCB_793.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_832",
+        "name": "UCB_832",
+        "image": "https://yourdomain.com/images/ucb/UCB_832.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_833",
+        "name": "UCB_833",
+        "image": "https://yourdomain.com/images/ucb/UCB_833.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_967",
+        "name": "UCB_967",
+        "image": "https://yourdomain.com/images/ucb/UCB_967.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_1125",
+        "name": "UCB_1125",
+        "image": "https://yourdomain.com/images/ucb/UCB_1125.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_1138",
+        "name": "UCB_1138",
+        "image": "https://yourdomain.com/images/ucb/UCB_1138.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_1143",
+        "name": "UCB_1143",
+        "image": "https://yourdomain.com/images/ucb/UCB_1143.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_1144",
+        "name": "UCB_1144",
+        "image": "https://yourdomain.com/images/ucb/UCB_1144.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UCB_1148",
+        "name": "UCB_1148",
+        "image": "https://yourdomain.com/images/ucb/UCB_1148.jpeg",
+        "stock": 0
+      }
+    ],
+    "UK": [
+      {
+        "id": "UK_304",
+        "name": "UK_304",
+        "image": "https://yourdomain.com/images/uk/UK_304.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_305",
+        "name": "UK_305",
+        "image": "https://yourdomain.com/images/uk/UK_305.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_310",
+        "name": "UK_310",
+        "image": "https://yourdomain.com/images/uk/UK_310.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_471",
+        "name": "UK_471",
+        "image": "https://yourdomain.com/images/uk/UK_471.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_548",
+        "name": "UK_548",
+        "image": "https://yourdomain.com/images/uk/UK_548.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_549",
+        "name": "UK_549",
+        "image": "https://yourdomain.com/images/uk/UK_549.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_737",
+        "name": "UK_737",
+        "image": "https://yourdomain.com/images/uk/UK_737.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_738",
+        "name": "UK_738",
+        "image": "https://yourdomain.com/images/uk/UK_738.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_739",
+        "name": "UK_739",
+        "image": "https://yourdomain.com/images/uk/UK_739.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_740",
+        "name": "UK_740",
+        "image": "https://yourdomain.com/images/uk/UK_740.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_777",
+        "name": "UK_777",
+        "image": "https://yourdomain.com/images/uk/UK_777.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_16433",
+        "name": "UK_16433",
+        "image": "https://yourdomain.com/images/uk/UK_16433.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_16473",
+        "name": "UK_16473",
+        "image": "https://yourdomain.com/images/uk/UK_16473.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_16479",
+        "name": "UK_16479",
+        "image": "https://yourdomain.com/images/uk/UK_16479.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_16480",
+        "name": "UK_16480",
+        "image": "https://yourdomain.com/images/uk/UK_16480.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_16483",
+        "name": "UK_16483",
+        "image": "https://yourdomain.com/images/uk/UK_16483.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_16528",
+        "name": "UK_16528",
+        "image": "https://yourdomain.com/images/uk/UK_16528.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UK_16533",
+        "name": "UK_16533",
+        "image": "https://yourdomain.com/images/uk/UK_16533.jpeg",
+        "stock": 0
+      }
+    ],
+    "UKRAINE": [
+      {
+        "id": "UKRAINE_215",
+        "name": "UKRAINE_215",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_215.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_558",
+        "name": "UKRAINE_558",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_558.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_827",
+        "name": "UKRAINE_827",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_827.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_829",
+        "name": "UKRAINE_829",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_829.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_831",
+        "name": "UKRAINE_831",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_831.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_897",
+        "name": "UKRAINE_897",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_897.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_899",
+        "name": "UKRAINE_899",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_899.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_900",
+        "name": "UKRAINE_900",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_900.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_906",
+        "name": "UKRAINE_906",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_906.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_953",
+        "name": "UKRAINE_953",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_953.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_963",
+        "name": "UKRAINE_963",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_963.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_964",
+        "name": "UKRAINE_964",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_964.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_966",
+        "name": "UKRAINE_966",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_966.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_986",
+        "name": "UKRAINE_986",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_986.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1087",
+        "name": "UKRAINE_1087",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1087.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1088",
+        "name": "UKRAINE_1088",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1088.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1141",
+        "name": "UKRAINE_1141",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1141.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1149",
+        "name": "UKRAINE_1149",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1149.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1155",
+        "name": "UKRAINE_1155",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1155.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1156",
+        "name": "UKRAINE_1156",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1156.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1157",
+        "name": "UKRAINE_1157",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1157.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1158",
+        "name": "UKRAINE_1158",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1158.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1159",
+        "name": "UKRAINE_1159",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1159.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1170",
+        "name": "UKRAINE_1170",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1170.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1171",
+        "name": "UKRAINE_1171",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1171.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1176",
+        "name": "UKRAINE_1176",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1176.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1178",
+        "name": "UKRAINE_1178",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1178.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_1179",
+        "name": "UKRAINE_1179",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_1179.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_15748",
+        "name": "UKRAINE_15748",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_15748.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_15851",
+        "name": "UKRAINE_15851",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_15851.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_16025",
+        "name": "UKRAINE_16025",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_16025.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE_16405",
+        "name": "UKRAINE_16405",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE_16405.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE-23",
+        "name": "UKRAINE-23",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE-23.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE-29",
+        "name": "UKRAINE-29",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE-29.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "UKRAINE-35",
+        "name": "UKRAINE-35",
+        "image": "https://yourdomain.com/images/ukraine/UKRAINE-35.jpeg",
+        "stock": 0
+      }
+    ],
+    "VATICAN": [
+      {
+        "id": "VATICAN_405",
+        "name": "VATICAN_405",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_405.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_702",
+        "name": "VATICAN_702",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_702.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_853",
+        "name": "VATICAN_853",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_853.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1016",
+        "name": "VATICAN_1016",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1016.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1017",
+        "name": "VATICAN_1017",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1017.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1018",
+        "name": "VATICAN_1018",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1018.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1019",
+        "name": "VATICAN_1019",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1019.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1020",
+        "name": "VATICAN_1020",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1020.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1025",
+        "name": "VATICAN_1025",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1025.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1044",
+        "name": "VATICAN_1044",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1044.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1060",
+        "name": "VATICAN_1060",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1060.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1067",
+        "name": "VATICAN_1067",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1067.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1068",
+        "name": "VATICAN_1068",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1068.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1084",
+        "name": "VATICAN_1084",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1084.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1085",
+        "name": "VATICAN_1085",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1085.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1086",
+        "name": "VATICAN_1086",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1086.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1137",
+        "name": "VATICAN_1137",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1137.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_1142",
+        "name": "VATICAN_1142",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_1142.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "VATICAN_16281",
+        "name": "VATICAN_16281",
+        "image": "https://yourdomain.com/images/vatican/VATICAN_16281.jpeg",
+        "stock": 0
+      }
+    ],
+    "WAFFLE": [
+      {
+        "id": "MEGNUM_1037",
+        "name": "MEGNUM_1037",
+        "image": "https://yourdomain.com/images/waffle/MEGNUM_1037.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_565",
+        "name": "WAFFLE_565",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_565.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_651",
+        "name": "WAFFLE_651",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_651.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_653",
+        "name": "WAFFLE_653",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_653.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_972",
+        "name": "WAFFLE_972",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_972.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_974",
+        "name": "WAFFLE_974",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_974.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_1028",
+        "name": "WAFFLE_1028",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_1028.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_1029",
+        "name": "WAFFLE_1029",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_1029.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_1030",
+        "name": "WAFFLE_1030",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_1030.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_1039",
+        "name": "WAFFLE_1039",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_1039.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_1040",
+        "name": "WAFFLE_1040",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_1040.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_1120",
+        "name": "WAFFLE_1120",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_1120.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_1121",
+        "name": "WAFFLE_1121",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_1121.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_1122",
+        "name": "WAFFLE_1122",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_1122.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_1123",
+        "name": "WAFFLE_1123",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_1123.jpeg",
+        "stock": 0
+      },
+      {
+        "id": "WAFFLE_1124",
+        "name": "WAFFLE_1124",
+        "image": "https://yourdomain.com/images/waffle/WAFFLE_1124.jpeg",
+        "stock": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "fabric-chatbot-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "check": "node --check server.js && node --check generate_catalog_pdfs.js && node --check tools/build_catalog.js && node --check tools/apply_design_code_map.js",
+    "test": "npm run check",
+    "start": "node server.js",
+    "prepare-production": "npm run build-catalog && npm run generate-catalog-pdfs && npm run check",
+    "apply-daily-updates": "node apply_daily_updates.js",
+    "apply-design-code-map": "node tools/apply_design_code_map.js",
+    "build-catalog": "node tools/build_catalog.js",
+    "create-contact-sheets": "node tools/create_contact_sheets.js",
+    "ocr-preview-renames": "node tools/ocr_preview_renames.js",
+    "generate-catalog-pdfs": "node generate_catalog_pdfs.js",
+    "upload-catalog-pdfs": "node generate_catalog_pdfs.js --upload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "axios": "^1.15.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pdf-parse": "^2.4.5",
+    "pdfkit": "^0.18.0",
+    "sharp": "^0.34.5",
+    "tesseract.js": "^6.0.1"
+  }
+}

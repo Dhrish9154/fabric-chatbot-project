@@ -1,0 +1,41 @@
+Production Checklist
+
+Before Pushing To Git
+- Confirm `.env` is not committed. It is ignored by `.gitignore`.
+- Commit `.env.example` instead, and set real secrets in the hosting dashboard.
+- Do not commit `node_modules`, generated PDFs in `catalogs`, contact sheets, or interaction logs.
+- Run `npm test` before every push.
+
+Deploy
+- Recommended simple path: Render using `render.yaml`.
+- Build command: `npm ci`
+- Start command: `npm start`
+- Health check path: `/health`
+- Set `NODE_ENV=production` on the host.
+
+Required Environment Variables
+- `WHATSAPP_TOKEN`
+- `PHONE_NUMBER_ID`
+- `VERIFY_TOKEN`
+- `WHATSAPP_APP_SECRET`
+- `SALES_NUMBER`
+- `CLOUDINARY_CLOUD_NAME`
+- `CLOUDINARY_API_KEY`
+- `CLOUDINARY_API_SECRET`
+
+Catalog PDFs
+- Generate local PDFs: `npm run generate-catalog-pdfs`
+- Upload PDFs to Cloudinary and WhatsApp: `npm run upload-catalog-pdfs`
+- After uploading, commit or deploy the updated `data/catalog_documents.json` if it contains the latest media IDs/URLs.
+
+WhatsApp Setup
+- Webhook URL: `https://YOUR_DOMAIN/webhook`
+- Verify token must match `VERIFY_TOKEN`.
+- Subscribe to WhatsApp messages events.
+- Make sure the Meta app is live/approved before messaging real customers.
+
+Operational Notes
+- `/health` checks catalog and document JSON loading.
+- Webhook signature validation is required in production via `WHATSAPP_APP_SECRET`.
+- The bot now handles multiple messages inside one webhook payload.
+- `userState` is still in memory. For multi-instance production, move it to Redis or a database later.

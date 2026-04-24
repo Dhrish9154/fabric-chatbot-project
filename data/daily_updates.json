@@ -1,0 +1,20 @@
+{
+  "out_of_stock_designs": [
+    "BALI_611"
+  ],
+  "stock_updates": [
+    {
+      "design_id": "BALI_388",
+      "stock": 1500
+    },
+    {
+      "design_id": "LINZ_244",
+      "stock": 640
+    },
+    {
+      "design_id": "BALI_611",
+      "stock": 0,
+      "hide_from_catalog": true
+    }
+  ]
+}
