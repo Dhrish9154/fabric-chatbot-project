@@ -113,7 +113,7 @@ async function createPdfForQuality(catalog, quality) {
       doc
         .fontSize(12)
         .font("Helvetica")
-        .text("To check stock in WhatsApp, send the design code shown above.", 36, 780, {
+        .text("For availability, rate, quantity, or delivery, contact the Tianso Global sales team.", 36, 780, {
           width: 523,
           align: "center"
         });

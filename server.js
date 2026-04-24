@@ -28,6 +28,7 @@ const SALES_NUMBER = process.env.SALES_NUMBER || "+91XXXXXXXXXX";
 const WEBSITE_URL = process.env.WEBSITE_URL || "";
 const APP_SECRET = process.env.WHATSAPP_APP_SECRET || process.env.APP_SECRET;
 const LOW_STOCK_THRESHOLD = Number.parseFloat(process.env.LOW_STOCK_THRESHOLD || "250");
+const STOCK_LOOKUP_ENABLED = process.env.STOCK_LOOKUP_ENABLED === "true";
 const userState = {};
 const customerProfiles = loadCustomerProfiles();
 const whatsappClient = axios.create({
@@ -745,7 +746,7 @@ async function sendSales(to, context = "sales_support") {
   await sendSalesHandoffButton(
     to,
     "To confirm your order, please contact our sales team.\n" +
-      "They will help with quantity, rate, delivery timeline, and color-wise stock confirmation.",
+      "They will help with quantity, rate, delivery timeline, and fabric availability.",
     context
   );
 
@@ -762,8 +763,7 @@ async function sendHelp(to) {
         "You can use this chatbot in a few simple ways:\n" +
         "- Choose View fabrics to open the quality menu\n" +
         "- Reply with a quality number like 1 or 2 to receive that catalog\n" +
-        "- Send a design code like BALI_388, bali-388, or bali 388 to check stock\n" +
-        "- Ask commercial questions like price, delivery, order, quantity, or colour-wise stock to connect with sales\n" +
+        "- Use Contact sales for price, availability, quantity, delivery, or order support\n" +
         "- Send update details to change your company name"
     }
   });
@@ -802,7 +802,7 @@ async function sendQualityDesigns(to, quality) {
       body:
         `${quality} collection from Tianso Global.\n` +
         "Exclusive design development with consistent hand-feel, shade accuracy, and on-time replenishment.\n" +
-        `Reply with the design code to check stock.\nExample format:\n*${designs[0].id}*`
+        "Please review the catalog PDF below and use Contact sales for availability, rate, quantity, or delivery."
     }
   });
 
@@ -856,7 +856,7 @@ async function sendQualityDesigns(to, quality) {
       type: "text",
       text: {
         body:
-          "After reviewing the catalog, use Contact Sales if you need rate, quantity, delivery, or color-wise stock confirmation."
+          "After reviewing the catalog, use Contact Sales if you need rate, quantity, delivery, or fabric availability."
       }
     });
   }
@@ -899,7 +899,7 @@ async function sendInvalidDesignMessage(to, catalog, preferredQuality) {
     text: {
       body:
         "We could not find that design code in the active Tianso Global collection.\n" +
-        "Please choose a quality first or send a valid design code.\n" +
+        "Please choose a quality first or use Contact sales for assistance.\n" +
         examplesLine
     }
   });
@@ -1054,9 +1054,11 @@ async function handleIncomingMessage(message) {
       await sendQualityDesigns(from, selectedQualityByNumber);
     } else if (commercialIntent) {
       await sendSales(from, "commercial_question");
-    } else if (extractedDesignCode) {
+    } else if (STOCK_LOOKUP_ENABLED && extractedDesignCode) {
       await sendStock(from, extractedDesignCode, "design_code");
-    } else if (stockIntent) {
+    } else if (extractedDesignCode) {
+      await sendSales(from, "design_code_question");
+    } else if (STOCK_LOOKUP_ENABLED && stockIntent) {
       await sendMessage({
         messaging_product: "whatsapp",
         to: from,
@@ -1067,6 +1069,8 @@ async function handleIncomingMessage(message) {
             "Example: BALI_388, bali-388, or bali 388."
         }
       });
+    } else if (stockIntent) {
+      await sendSales(from, "availability_question");
     } else {
       await sendInvalidDesignMessage(from, catalog, preferredQuality);
     }
