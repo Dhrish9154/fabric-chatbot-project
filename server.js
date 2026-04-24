@@ -167,6 +167,55 @@ function buildSalesWhatsAppLink(to) {
   return `https://wa.me/${salesNumber}?text=${encodeURIComponent(message)}`;
 }
 
+async function sendSalesHandoffButton(to, body, context) {
+  const salesWhatsAppLink = buildSalesWhatsAppLink(to);
+
+  if (!salesWhatsAppLink) {
+    await sendMessage({
+      messaging_product: "whatsapp",
+      to,
+      type: "text",
+      text: {
+        body: `${body}\n\nContact: ${SALES_NUMBER}`
+      }
+    });
+    logInteraction("sales_handoff_sent", { to, context, sales_button_sent: false });
+    return;
+  }
+
+  const buttonSent = await sendMessage({
+    messaging_product: "whatsapp",
+    to,
+    type: "interactive",
+    interactive: {
+      type: "cta_url",
+      body: {
+        text: body
+      },
+      action: {
+        name: "cta_url",
+        parameters: {
+          display_text: "Contact Sales",
+          url: salesWhatsAppLink
+        }
+      }
+    }
+  });
+
+  if (!buttonSent) {
+    await sendMessage({
+      messaging_product: "whatsapp",
+      to,
+      type: "text",
+      text: {
+        body: `${body}\n\nContact: ${SALES_NUMBER}\n${salesWhatsAppLink}`
+      }
+    });
+  }
+
+  logInteraction("sales_handoff_sent", { to, context, sales_button_sent: buttonSent });
+}
+
 function isUpdateDetailsMessage(text) {
   const normalizedText = String(text || "").trim().toLowerCase();
   return ["update details", "reset details", "change details", "change company", "change phone"].includes(
@@ -739,24 +788,14 @@ async function sendWebsite(to) {
 }
 
 async function sendSales(to, context = "sales_support") {
-  const salesWhatsAppLink = buildSalesWhatsAppLink(to);
-
-  await sendMessage({
-    messaging_product: "whatsapp",
+  await sendSalesHandoffButton(
     to,
-    type: "text",
-    text: {
-      body:
-        "To confirm your order, please contact our sales team.\n" +
-        "They will help with quantity, rate, delivery timeline, and color-wise stock confirmation.\n" +
-        `Contact: ${SALES_NUMBER}` +
-        (salesWhatsAppLink
-          ? `\n\nTap here to open sales chat with your details filled in:\n${salesWhatsAppLink}`
-          : "")
-    }
-  });
+    "To confirm your order, please contact our sales team.\n" +
+      "They will help with quantity, rate, delivery timeline, and color-wise stock confirmation.",
+    context
+  );
 
-  logInteraction("sales_requested", { to, context, sales_link_sent: Boolean(salesWhatsAppLink) });
+  logInteraction("sales_requested", { to, context });
 }
 
 async function sendHelp(to) {
@@ -936,7 +975,6 @@ async function sendStock(to, designId, source = "text") {
   const { design: found, quality: foundQuality } = foundMatch;
   const colorAvailability = formatColorAvailability(found);
   const stockStatus = getStockStatus(found.stock);
-  const salesWhatsAppLink = buildSalesWhatsAppLink(to);
 
   userState[to] = {
     ...(userState[to] || {}),
@@ -955,12 +993,15 @@ async function sendStock(to, designId, source = "text") {
         `Design: ${found.id}\n` +
         `${stockStatus.line}\n` +
         `${colorAvailability ? `${colorAvailability}\n` : ""}` +
-        `Please contact our sales team to confirm your order: ${SALES_NUMBER}` +
-        (salesWhatsAppLink
-          ? `\n\nOpen sales chat with your details filled in:\n${salesWhatsAppLink}`
-          : "")
+        "Please contact our sales team to confirm your order."
     }
   });
+
+  await sendSalesHandoffButton(
+    to,
+    `Open a sales chat for ${found.id}. Your company name and phone number will be filled in automatically.`,
+    "stock_lookup"
+  );
 
   await sendMessage({
     messaging_product: "whatsapp",
