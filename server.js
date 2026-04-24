@@ -142,6 +142,31 @@ function isValidPhoneNumber(value) {
   return digits.length >= 8 && digits.length <= 15;
 }
 
+function normalizeWhatsAppLinkNumber(value) {
+  return String(value || "").replace(/\D/g, "");
+}
+
+function buildSalesWhatsAppLink(to) {
+  const salesNumber = normalizeWhatsAppLinkNumber(SALES_NUMBER);
+
+  if (!salesNumber) {
+    return null;
+  }
+
+  const profile = getCustomerProfile(to);
+  const message = [
+    "Hello Tianso Global sales team,",
+    "",
+    "I want to discuss fabrics / place an order.",
+    "",
+    `Company name: ${profile.companyName || "Not shared"}`,
+    `Customer phone: ${profile.phoneNumber || "Not shared"}`,
+    `WhatsApp number: +${normalizeWhatsAppLinkNumber(profile.whatsappNumber || to)}`
+  ].join("\n");
+
+  return `https://wa.me/${salesNumber}?text=${encodeURIComponent(message)}`;
+}
+
 function isUpdateDetailsMessage(text) {
   const normalizedText = String(text || "").trim().toLowerCase();
   return ["update details", "reset details", "change details", "change company", "change phone"].includes(
@@ -714,6 +739,8 @@ async function sendWebsite(to) {
 }
 
 async function sendSales(to, context = "sales_support") {
+  const salesWhatsAppLink = buildSalesWhatsAppLink(to);
+
   await sendMessage({
     messaging_product: "whatsapp",
     to,
@@ -722,11 +749,14 @@ async function sendSales(to, context = "sales_support") {
       body:
         "To confirm your order, please contact our sales team.\n" +
         "They will help with quantity, rate, delivery timeline, and color-wise stock confirmation.\n" +
-        `Contact: ${SALES_NUMBER}`
+        `Contact: ${SALES_NUMBER}` +
+        (salesWhatsAppLink
+          ? `\n\nTap here to open sales chat with your details filled in:\n${salesWhatsAppLink}`
+          : "")
     }
   });
 
-  logInteraction("sales_requested", { to, context });
+  logInteraction("sales_requested", { to, context, sales_link_sent: Boolean(salesWhatsAppLink) });
 }
 
 async function sendHelp(to) {
@@ -906,6 +936,7 @@ async function sendStock(to, designId, source = "text") {
   const { design: found, quality: foundQuality } = foundMatch;
   const colorAvailability = formatColorAvailability(found);
   const stockStatus = getStockStatus(found.stock);
+  const salesWhatsAppLink = buildSalesWhatsAppLink(to);
 
   userState[to] = {
     ...(userState[to] || {}),
@@ -924,7 +955,10 @@ async function sendStock(to, designId, source = "text") {
         `Design: ${found.id}\n` +
         `${stockStatus.line}\n` +
         `${colorAvailability ? `${colorAvailability}\n` : ""}` +
-        `Please contact our sales team to confirm your order: ${SALES_NUMBER}`
+        `Please contact our sales team to confirm your order: ${SALES_NUMBER}` +
+        (salesWhatsAppLink
+          ? `\n\nOpen sales chat with your details filled in:\n${salesWhatsAppLink}`
+          : "")
     }
   });
 
