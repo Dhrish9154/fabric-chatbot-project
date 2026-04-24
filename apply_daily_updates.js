@@ -29,10 +29,19 @@ function normalizeStockUpdates(rawUpdates) {
   return ensureArray(rawUpdates).map((entry) => {
     const designId = String(entry.design_id || entry.id || "").trim().toUpperCase();
     const stock = Number(entry.stock);
+    const colorStock =
+      entry.color_stock && typeof entry.color_stock === "object" && !Array.isArray(entry.color_stock)
+        ? Object.fromEntries(
+            Object.entries(entry.color_stock)
+              .map(([color, value]) => [String(color).trim(), Number(value)])
+              .filter(([color, value]) => color && !Number.isNaN(value) && value > 0)
+          )
+        : undefined;
 
     return {
       designId,
       stock,
+      colorStock,
       hideFromCatalog:
         typeof entry.hide_from_catalog === "boolean" ? entry.hide_from_catalog : undefined
     };
@@ -87,6 +96,14 @@ function main() {
 
     found.design.stock = update.stock;
 
+    if (update.colorStock) {
+      found.design.color_stock = update.colorStock;
+      found.design.colors = Object.keys(update.colorStock).sort();
+    } else if (update.stock <= 0) {
+      found.design.color_stock = {};
+      found.design.colors = [];
+    }
+
     if (typeof update.hideFromCatalog === "boolean") {
       found.design.hidden_from_catalog = update.hideFromCatalog;
     } else if (update.stock > 0) {
@@ -96,6 +113,7 @@ function main() {
     report.stock_updated.push({
       design_id: update.designId,
       stock: update.stock,
+      colors: found.design.colors || [],
       hidden_from_catalog: Boolean(found.design.hidden_from_catalog)
     });
   }

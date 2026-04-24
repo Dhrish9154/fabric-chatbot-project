@@ -263,10 +263,10 @@ function formatColorAvailability(design) {
     const colorEntries = Object.entries(design.color_stock)
       .filter((entry) => typeof entry[1] === "number" && entry[1] > 0)
       .sort((left, right) => right[1] - left[1])
-      .map(([color, stock]) => `${color}: ${stock} m`);
+      .map(([color, stock]) => `- ${color}: ${stock} m`);
 
     if (colorEntries.length) {
-      return `Colours available: ${colorEntries.join(", ")}`;
+      return `Colour-wise stock:\n${colorEntries.join("\n")}`;
     }
   }
 

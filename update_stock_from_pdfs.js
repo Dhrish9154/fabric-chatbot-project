@@ -4,22 +4,37 @@ const path = require("path");
 const { PDFParse } = require("pdf-parse");
 
 const DOWNLOADS_DIR = path.join(os.homedir(), "Downloads");
+const STOCK_PDF_DIR = process.env.STOCK_PDF_DIR || DOWNLOADS_DIR;
 const CATALOG_PATH = path.join(__dirname, "data", "catalog.json");
 const REPORT_PATH = path.join(__dirname, "data", "stock_import_report.json");
 
+function isGeneratedCatalogPdf(fileName) {
+  return /(^|[_\s-])catalog\.pdf$/i.test(fileName) || /[_\s-]catalog[_\s-]/i.test(fileName);
+}
+
 function resolvePdfInputs(catalog) {
   const pdfInputs = {};
+  const pdfFiles = fs
+    .readdirSync(STOCK_PDF_DIR, { withFileTypes: true })
+    .filter((entry) => entry.isFile() && entry.name.toLowerCase().endsWith(".pdf"))
+    .filter((entry) => !isGeneratedCatalogPdf(entry.name))
+    .map((entry) => {
+      const filePath = path.join(STOCK_PDF_DIR, entry.name);
+      return {
+        name: entry.name,
+        path: filePath,
+        modifiedAt: fs.statSync(filePath).mtimeMs
+      };
+    });
 
   for (const quality of Object.keys(catalog.qualities || {})) {
     const qualityPrefix = quality.toLowerCase();
-    const matchedFile = fs
-      .readdirSync(DOWNLOADS_DIR, { withFileTypes: true })
-      .filter((entry) => entry.isFile() && entry.name.toLowerCase().endsWith(".pdf"))
-      .map((entry) => entry.name)
-      .find((fileName) => fileName.toLowerCase().startsWith(qualityPrefix));
+    const matchedFile = pdfFiles
+      .filter((file) => file.name.toLowerCase().startsWith(qualityPrefix))
+      .sort((left, right) => right.modifiedAt - left.modifiedAt)[0];
 
     if (matchedFile) {
-      pdfInputs[quality] = path.join(DOWNLOADS_DIR, matchedFile);
+      pdfInputs[quality] = matchedFile.path;
     }
   }
 
@@ -91,6 +106,8 @@ function parseDesignSummaries(text, quality) {
   }
 
   for (const summary of summaries.values()) {
+    summary.total = Number.parseFloat(summary.total.toFixed(2));
+
     for (const [color, stock] of Object.entries(summary.color_stock)) {
       summary.color_stock[color] = Number.parseFloat(stock.toFixed(2));
     }
@@ -115,11 +132,20 @@ function formatList(values) {
 async function main() {
   const catalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
   const parsedSummaries = new Map();
+  const parsedSummariesByQuality = new Map();
   const pdfInputs = resolvePdfInputs(catalog);
   const missingPdfFiles = Object.keys(catalog.qualities || {}).filter((quality) => !pdfInputs[quality]);
+  const qualitiesWithNoParsedStock = [];
 
   for (const [quality, filePath] of Object.entries(pdfInputs)) {
     const summaries = await extractPdfSummaries(filePath, quality);
+
+    if (!summaries.size) {
+      qualitiesWithNoParsedStock.push(quality);
+      continue;
+    }
+
+    parsedSummariesByQuality.set(quality, summaries);
 
     for (const [designId, summary] of summaries.entries()) {
       parsedSummaries.set(designId, summary);
@@ -127,16 +153,23 @@ async function main() {
   }
 
   const missingFromPdfs = [];
+  const preservedQualities = [...missingPdfFiles, ...qualitiesWithNoParsedStock];
 
-  for (const designs of Object.values(catalog.qualities)) {
+  for (const [quality, designs] of Object.entries(catalog.qualities)) {
+    const qualitySummaries = parsedSummariesByQuality.get(quality);
+
+    if (!qualitySummaries) {
+      continue;
+    }
+
     for (const design of designs) {
-      if (parsedSummaries.has(design.id)) {
-        const summary = parsedSummaries.get(design.id);
+      if (qualitySummaries.has(design.id)) {
+        const summary = qualitySummaries.get(design.id);
         design.stock = summary.total;
         design.colors = summary.colors;
         design.color_stock = summary.color_stock;
       } else {
-        design.stock = null;
+        design.stock = 0;
         design.colors = [];
         design.color_stock = {};
         missingFromPdfs.push(design.id);
@@ -155,9 +188,12 @@ async function main() {
     JSON.stringify(
       {
         generated_at: new Date().toISOString(),
+        stock_pdf_dir: STOCK_PDF_DIR,
         parsed_totals: parsedSummaries.size,
         pdf_files_found: pdfInputs,
         qualities_missing_pdf_files: missingPdfFiles,
+        qualities_with_no_parsed_stock: qualitiesWithNoParsedStock,
+        qualities_preserved_without_stock_update: preservedQualities,
         catalog_ids_missing_from_pdfs: missingFromPdfs,
         pdf_ids_missing_from_catalog: missingFromCatalog
       },
@@ -170,6 +206,8 @@ async function main() {
   console.log(`Wrote import report to ${REPORT_PATH}`);
   console.log(`Parsed totals: ${parsedSummaries.size}`);
   console.log(`Qualities missing PDF files: ${formatList(missingPdfFiles)}`);
+  console.log(`Qualities with no parsed stock: ${formatList(qualitiesWithNoParsedStock)}`);
+  console.log(`Qualities preserved without stock update: ${formatList(preservedQualities)}`);
   console.log(`Catalog IDs missing from PDFs: ${formatList(missingFromPdfs)}`);
   console.log(`PDF IDs missing from catalog: ${formatList(missingFromCatalog)}`);
 }

@@ -7,6 +7,26 @@ const OUTPUT_FILE = path.join(ROOT, "data", "catalog.json");
 const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp"]);
 const SKIP_CODES = new Set(["REVIEW_REQUIRED", "DUPLICATE"]);
 
+function loadExistingCatalog() {
+  if (!fs.existsSync(OUTPUT_FILE)) {
+    return { qualities: {} };
+  }
+
+  return JSON.parse(fs.readFileSync(OUTPUT_FILE, "utf8"));
+}
+
+function buildExistingDesignIndex(catalog) {
+  const index = new Map();
+
+  for (const designs of Object.values(catalog.qualities || {})) {
+    for (const design of designs) {
+      index.set(String(design.id || "").toUpperCase(), design);
+    }
+  }
+
+  return index;
+}
+
 function loadReviewRequiredFiles() {
   const dataDir = path.join(ROOT, "data");
   const reviewFiles = new Map();
@@ -49,6 +69,7 @@ function getImageFiles(folderPath) {
 
 function main() {
   const catalog = { qualities: {} };
+  const existingDesigns = buildExistingDesignIndex(loadExistingCatalog());
   const reviewRequiredFiles = loadReviewRequiredFiles();
   const qualities = fs
     .readdirSync(BASE_FOLDER, { withFileTypes: true })
@@ -69,10 +90,13 @@ function main() {
         }
 
         return {
+          ...(existingDesigns.get(id) || {}),
           id,
           name: id,
           image: `https://yourdomain.com/images/${quality.toLowerCase()}/${filename}`,
-          stock: 0
+          stock: existingDesigns.get(id)?.stock ?? 0,
+          colors: existingDesigns.get(id)?.colors || [],
+          color_stock: existingDesigns.get(id)?.color_stock || {}
         };
       })
       .filter(Boolean);
